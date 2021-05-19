@@ -17,13 +17,8 @@ class UTabBarController: UITabBarController {
         
         /// 首页
         let onePageVC = BobHomeViewController(titles: ["推荐",
-                                                     "VIP",
-                                                     "订阅",
-                                                     "排行"],
-                                            vcs: [BobBoutiqueListViewController(),
-                                                  BobVIPListViewController(),
-                                                  BobSubscibeListViewController(),
-                                                  BobRankListViewController()],
+                                                     ],
+                                            vcs: [BobBoutiqueListViewController()],
                                             pageStyle: .navgationBarSegment)
         addChildViewController(onePageVC,
                                title: "首页",

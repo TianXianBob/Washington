@@ -8,6 +8,59 @@
 
 /* Begin PBXBuildFile section */
 		579E19B3917FA1863EB00203 /* Pods_Washington.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74832A70F08E7785AF968B1D /* Pods_Washington.framework */; };
+		C4539B682650E487005B2849 /* BobChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4539B672650E487005B2849 /* BobChapterViewController.swift */; };
+		C4539B6D2650E5FC005B2849 /* BobChapterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4539B6C2650E5FC005B2849 /* BobChapterCollectionViewCell.swift */; };
+		C4539B722650E655005B2849 /* BobChapterContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4539B712650E655005B2849 /* BobChapterContainerView.swift */; };
+		C4539B7E26510D8E005B2849 /* BobVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4539B7D26510D8E005B2849 /* BobVideoViewController.swift */; };
+		C4539B9C26510F9E005B2849 /* baobao84_strory.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539B9B26510F9E005B2849 /* baobao84_strory.json */; };
+		C4539BA426511038005B2849 /* ruiqi88_story.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539BA326511038005B2849 /* ruiqi88_story.json */; };
+		C4539BA9265110A4005B2849 /* chaojifeixia_cartoon.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539BA8265110A4005B2849 /* chaojifeixia_cartoon.json */; };
+		C4539BBD26511187005B2849 /* maoxiaoshuai_enErGe.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539BBC26511187005B2849 /* maoxiaoshuai_enErGe.json */; };
+		C4539BCA26511238005B2849 /* beilehu_poem.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539BC926511238005B2849 /* beilehu_poem.json */; };
+		C4539BD726511293005B2849 /* beiwa_poem.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539BD626511293005B2849 /* beiwa_poem.json */; };
+		C4539BE826511335005B2849 /* xionghaizi_Guoxue.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539BE726511335005B2849 /* xionghaizi_Guoxue.json */; };
+		C4539BED26511390005B2849 /* mengbao_Guoxue.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539BEC26511390005B2849 /* mengbao_Guoxue.json */; };
+		C4539BFA265113EF005B2849 /* qingbao_poem.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539BF9265113EF005B2849 /* qingbao_poem.json */; };
+		C4539BFF2651156D005B2849 /* mengbao_poem.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539BFE2651156D005B2849 /* mengbao_poem.json */; };
+		C4539C09265115CA005B2849 /* xiaojiaoya_poem.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539C08265115CA005B2849 /* xiaojiaoya_poem.json */; };
+		C4539C11265115FA005B2849 /* xiaolu_poem.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539C10265115FA005B2849 /* xiaolu_poem.json */; };
+		C4539C1626511647005B2849 /* aishanggushi_poem.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539C1526511647005B2849 /* aishanggushi_poem.json */; };
+		C4539C1B26511C4F005B2849 /* dongdong_poem.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539C1A26511C4F005B2849 /* dongdong_poem.json */; };
+		C4539C2026511CC6005B2849 /* aixuexi_poem.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539C1F26511CC6005B2849 /* aixuexi_poem.json */; };
+		C4539C2526511D3B005B2849 /* other_poem.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539C2426511D3B005B2849 /* other_poem.json */; };
+		C4539C2A26511D8C005B2849 /* mimitegongdui_poem.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539C2926511D8C005B2849 /* mimitegongdui_poem.json */; };
+		C4539C2F26511DC5005B2849 /* baobao84_poem.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539C2E26511DC5005B2849 /* baobao84_poem.json */; };
+		C4539C3426511E07005B2849 /* maoxiaoshuai_poem.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539C3326511E07005B2849 /* maoxiaoshuai_poem.json */; };
+		C4539C3926511E2E005B2849 /* dula_poem.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539C3826511E2E005B2849 /* dula_poem.json */; };
+		C4539C3E26511EBE005B2849 /* huohuotu_poem.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539C3D26511EBE005B2849 /* huohuotu_poem.json */; };
+		C4539C4326511EF0005B2849 /* zhixiang_poem.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539C4226511EF0005B2849 /* zhixiang_poem.json */; };
+		C4539C4826511F60005B2849 /* beilehu_sanzijing.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539C4726511F60005B2849 /* beilehu_sanzijing.json */; };
+		C4539C5626512002005B2849 /* dula_baijiaxing.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539C5526512002005B2849 /* dula_baijiaxing.json */; };
+		C4539C632651207F005B2849 /* story_sanzijing.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539C622651207F005B2849 /* story_sanzijing.json */; };
+		C4539C6B265120D0005B2849 /* guoxue_sanzijing.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539C6A265120D0005B2849 /* guoxue_sanzijing.json */; };
+		C4539C7126512180005B2849 /* qingbao_dizigui.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539C7026512180005B2849 /* qingbao_dizigui.json */; };
+		C4539C7A265121BC005B2849 /* dula_qianziwen.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539C79265121BC005B2849 /* dula_qianziwen.json */; };
+		C4539C7F265121FC005B2849 /* normal_sanzijing.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539C7E265121FC005B2849 /* normal_sanzijing.json */; };
+		C4539C8926512379005B2849 /* maoxiaoshaui_erge.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539C8826512379005B2849 /* maoxiaoshaui_erge.json */; };
+		C4539C9C26512406005B2849 /* beilehu_erge.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539C9B26512406005B2849 /* beilehu_erge.json */; };
+		C4539CA12651244E005B2849 /* beilehu_enErGe.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539CA02651244E005B2849 /* beilehu_enErGe.json */; };
+		C4539CA626512487005B2849 /* baobao84_enErGe.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539CA526512487005B2849 /* baobao84_enErGe.json */; };
+		C4539CAB265124B6005B2849 /* baobao84_erge.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539CAA265124B6005B2849 /* baobao84_erge.json */; };
+		C4539CB0265124EF005B2849 /* guliguli_erge.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539CAF265124EF005B2849 /* guliguli_erge.json */; };
+		C4539CB526512532005B2849 /* hali_erge.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539CB426512532005B2849 /* hali_erge.json */; };
+		C4539CBA2651255C005B2849 /* keyi_erge.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539CB92651255C005B2849 /* keyi_erge.json */; };
+		C4539CBF2651259B005B2849 /* qingbao_erge.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539CBE2651259B005B2849 /* qingbao_erge.json */; };
+		C4539CC4265125F7005B2849 /* huohuotu_erge.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539CC3265125F7005B2849 /* huohuotu_erge.json */; };
+		C4539CC926512635005B2849 /* yienzhuangyuan_enErGe.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539CC826512635005B2849 /* yienzhuangyuan_enErGe.json */; };
+		C4539CCE2651266E005B2849 /* landi_erge.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539CCD2651266E005B2849 /* landi_erge.json */; };
+		C4539CD326512693005B2849 /* xionghaizi_erge.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539CD226512693005B2849 /* xionghaizi_erge.json */; };
+		C4539CD8265126D1005B2849 /* xionghaizi_enErGe.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539CD7265126D1005B2849 /* xionghaizi_enErGe.json */; };
+		C4539CDD26512701005B2849 /* mengbao_erge.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539CDC26512701005B2849 /* mengbao_erge.json */; };
+		C4539CE226512737005B2849 /* mengbao_enErGe.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539CE126512737005B2849 /* mengbao_enErGe.json */; };
+		C4539CEF26554F4F005B2849 /* xiaozhupeiqi_cartoon.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539CEE26554F4F005B2849 /* xiaozhupeiqi_cartoon.json */; };
+		C4539CF426554FD9005B2849 /* zhuzhuxia_cartoon.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539CF326554FD9005B2849 /* zhuzhuxia_cartoon.json */; };
+		C4539CF92655500E005B2849 /* xiongchumo_duiduipeng_cartoon.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539CF82655500E005B2849 /* xiongchumo_duiduipeng_cartoon.json */; };
+		C4539CFE26555023005B2849 /* xiongchumo_lianliankan_cartoon.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539CFD26555023005B2849 /* xiongchumo_lianliankan_cartoon.json */; };
 		C47ECBA52644342600EA8704 /* WashingtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ECBA42644342600EA8704 /* WashingtonTests.swift */; };
 		C47ECBB02644342600EA8704 /* WashingtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ECBAF2644342600EA8704 /* WashingtonUITests.swift */; };
 		C47ED21B26443DFF00EA8704 /* UAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1AC26443DFF00EA8704 /* UAPI.swift */; };
@@ -53,7 +106,7 @@
 		C47ED24526443DFF00EA8704 /* UComicTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1E326443DFF00EA8704 /* UComicTCell.swift */; };
 		C47ED24626443DFF00EA8704 /* UReadBottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1E426443DFF00EA8704 /* UReadBottomBar.swift */; };
 		C47ED24726443DFF00EA8704 /* UGuessLikeTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1E526443DFF00EA8704 /* UGuessLikeTCell.swift */; };
-		C47ED24826443DFF00EA8704 /* UComicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1E726443DFF00EA8704 /* UComicViewController.swift */; };
+		C47ED24826443DFF00EA8704 /* BobComicDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1E726443DFF00EA8704 /* BobComicDetailViewController.swift */; };
 		C47ED24926443DFF00EA8704 /* UDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1E826443DFF00EA8704 /* UDetailViewController.swift */; };
 		C47ED24A26443DFF00EA8704 /* UOtherWorksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1E926443DFF00EA8704 /* UOtherWorksViewController.swift */; };
 		C47ED24B26443DFF00EA8704 /* UChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1EA26443DFF00EA8704 /* UChapterViewController.swift */; };
@@ -89,8 +142,12 @@
 		C47ED26926443DFF00EA8704 /* ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED21826443DFF00EA8704 /* ParallaxHeader.swift */; };
 		C47ED26A26443DFF00EA8704 /* UNoticeBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED21A26443DFF00EA8704 /* UNoticeBar.swift */; };
 		C47ED2AD264442C600EA8704 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47ED2A52644425E00EA8704 /* Assets.xcassets */; };
+		C4909864264FBB8000C9AD9F /* 古诗词.json in Resources */ = {isa = PBXBuildFile; fileRef = C4909863264FBB8000C9AD9F /* 古诗词.json */; };
+		C4909877264FBC0500C9AD9F /* 儿歌.json in Resources */ = {isa = PBXBuildFile; fileRef = C4909876264FBC0500C9AD9F /* 儿歌.json */; };
+		C490987C264FBC3200C9AD9F /* 故事集.json in Resources */ = {isa = PBXBuildFile; fileRef = C490987B264FBC3200C9AD9F /* 故事集.json */; };
 		C4DFD49F264562F9001FB46B /* BobApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DFD49E264562F9001FB46B /* BobApi.swift */; };
 		C4DFD4A426456AA4001FB46B /* BobModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DFD4A326456AA4001FB46B /* BobModel.swift */; };
+		C4DFD4B8264BFE53001FB46B /* BobBoutiqueListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DFD4B7264BFE53001FB46B /* BobBoutiqueListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +171,59 @@
 		74832A70F08E7785AF968B1D /* Pods_Washington.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Washington.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E05A47538197E6FD7DFBE8C /* Pods-Washington.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Washington.debug.xcconfig"; path = "Target Support Files/Pods-Washington/Pods-Washington.debug.xcconfig"; sourceTree = "<group>"; };
 		A4BA355EA6C4CF8FD5FBFE36 /* Pods-Washington.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Washington.release.xcconfig"; path = "Target Support Files/Pods-Washington/Pods-Washington.release.xcconfig"; sourceTree = "<group>"; };
+		C4539B672650E487005B2849 /* BobChapterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobChapterViewController.swift; sourceTree = "<group>"; };
+		C4539B6C2650E5FC005B2849 /* BobChapterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobChapterCollectionViewCell.swift; sourceTree = "<group>"; };
+		C4539B712650E655005B2849 /* BobChapterContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobChapterContainerView.swift; sourceTree = "<group>"; };
+		C4539B7D26510D8E005B2849 /* BobVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobVideoViewController.swift; sourceTree = "<group>"; };
+		C4539B9B26510F9E005B2849 /* baobao84_strory.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = baobao84_strory.json; sourceTree = "<group>"; };
+		C4539BA326511038005B2849 /* ruiqi88_story.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ruiqi88_story.json; sourceTree = "<group>"; };
+		C4539BA8265110A4005B2849 /* chaojifeixia_cartoon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chaojifeixia_cartoon.json; sourceTree = "<group>"; };
+		C4539BBC26511187005B2849 /* maoxiaoshuai_enErGe.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = maoxiaoshuai_enErGe.json; sourceTree = "<group>"; };
+		C4539BC926511238005B2849 /* beilehu_poem.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = beilehu_poem.json; sourceTree = "<group>"; };
+		C4539BD626511293005B2849 /* beiwa_poem.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = beiwa_poem.json; sourceTree = "<group>"; };
+		C4539BE726511335005B2849 /* xionghaizi_Guoxue.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = xionghaizi_Guoxue.json; sourceTree = "<group>"; };
+		C4539BEC26511390005B2849 /* mengbao_Guoxue.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mengbao_Guoxue.json; sourceTree = "<group>"; };
+		C4539BF9265113EF005B2849 /* qingbao_poem.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = qingbao_poem.json; sourceTree = "<group>"; };
+		C4539BFE2651156D005B2849 /* mengbao_poem.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mengbao_poem.json; sourceTree = "<group>"; };
+		C4539C08265115CA005B2849 /* xiaojiaoya_poem.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = xiaojiaoya_poem.json; sourceTree = "<group>"; };
+		C4539C10265115FA005B2849 /* xiaolu_poem.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = xiaolu_poem.json; sourceTree = "<group>"; };
+		C4539C1526511647005B2849 /* aishanggushi_poem.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = aishanggushi_poem.json; sourceTree = "<group>"; };
+		C4539C1A26511C4F005B2849 /* dongdong_poem.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dongdong_poem.json; sourceTree = "<group>"; };
+		C4539C1F26511CC6005B2849 /* aixuexi_poem.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = aixuexi_poem.json; sourceTree = "<group>"; };
+		C4539C2426511D3B005B2849 /* other_poem.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = other_poem.json; sourceTree = "<group>"; };
+		C4539C2926511D8C005B2849 /* mimitegongdui_poem.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mimitegongdui_poem.json; sourceTree = "<group>"; };
+		C4539C2E26511DC5005B2849 /* baobao84_poem.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = baobao84_poem.json; sourceTree = "<group>"; };
+		C4539C3326511E07005B2849 /* maoxiaoshuai_poem.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = maoxiaoshuai_poem.json; sourceTree = "<group>"; };
+		C4539C3826511E2E005B2849 /* dula_poem.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dula_poem.json; sourceTree = "<group>"; };
+		C4539C3D26511EBE005B2849 /* huohuotu_poem.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = huohuotu_poem.json; sourceTree = "<group>"; };
+		C4539C4226511EF0005B2849 /* zhixiang_poem.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = zhixiang_poem.json; sourceTree = "<group>"; };
+		C4539C4726511F60005B2849 /* beilehu_sanzijing.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = beilehu_sanzijing.json; sourceTree = "<group>"; };
+		C4539C5526512002005B2849 /* dula_baijiaxing.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dula_baijiaxing.json; sourceTree = "<group>"; };
+		C4539C622651207F005B2849 /* story_sanzijing.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = story_sanzijing.json; sourceTree = "<group>"; };
+		C4539C6A265120D0005B2849 /* guoxue_sanzijing.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = guoxue_sanzijing.json; sourceTree = "<group>"; };
+		C4539C7026512180005B2849 /* qingbao_dizigui.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = qingbao_dizigui.json; sourceTree = "<group>"; };
+		C4539C79265121BC005B2849 /* dula_qianziwen.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dula_qianziwen.json; sourceTree = "<group>"; };
+		C4539C7E265121FC005B2849 /* normal_sanzijing.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = normal_sanzijing.json; sourceTree = "<group>"; };
+		C4539C8826512379005B2849 /* maoxiaoshaui_erge.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = maoxiaoshaui_erge.json; sourceTree = "<group>"; };
+		C4539C9B26512406005B2849 /* beilehu_erge.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = beilehu_erge.json; sourceTree = "<group>"; };
+		C4539CA02651244E005B2849 /* beilehu_enErGe.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = beilehu_enErGe.json; sourceTree = "<group>"; };
+		C4539CA526512487005B2849 /* baobao84_enErGe.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = baobao84_enErGe.json; sourceTree = "<group>"; };
+		C4539CAA265124B6005B2849 /* baobao84_erge.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = baobao84_erge.json; sourceTree = "<group>"; };
+		C4539CAF265124EF005B2849 /* guliguli_erge.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = guliguli_erge.json; sourceTree = "<group>"; };
+		C4539CB426512532005B2849 /* hali_erge.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hali_erge.json; sourceTree = "<group>"; };
+		C4539CB92651255C005B2849 /* keyi_erge.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = keyi_erge.json; sourceTree = "<group>"; };
+		C4539CBE2651259B005B2849 /* qingbao_erge.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = qingbao_erge.json; sourceTree = "<group>"; };
+		C4539CC3265125F7005B2849 /* huohuotu_erge.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = huohuotu_erge.json; sourceTree = "<group>"; };
+		C4539CC826512635005B2849 /* yienzhuangyuan_enErGe.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = yienzhuangyuan_enErGe.json; sourceTree = "<group>"; };
+		C4539CCD2651266E005B2849 /* landi_erge.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = landi_erge.json; sourceTree = "<group>"; };
+		C4539CD226512693005B2849 /* xionghaizi_erge.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = xionghaizi_erge.json; sourceTree = "<group>"; };
+		C4539CD7265126D1005B2849 /* xionghaizi_enErGe.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = xionghaizi_enErGe.json; sourceTree = "<group>"; };
+		C4539CDC26512701005B2849 /* mengbao_erge.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mengbao_erge.json; sourceTree = "<group>"; };
+		C4539CE126512737005B2849 /* mengbao_enErGe.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mengbao_enErGe.json; sourceTree = "<group>"; };
+		C4539CEE26554F4F005B2849 /* xiaozhupeiqi_cartoon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = xiaozhupeiqi_cartoon.json; sourceTree = "<group>"; };
+		C4539CF326554FD9005B2849 /* zhuzhuxia_cartoon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = zhuzhuxia_cartoon.json; sourceTree = "<group>"; };
+		C4539CF82655500E005B2849 /* xiongchumo_duiduipeng_cartoon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = xiongchumo_duiduipeng_cartoon.json; sourceTree = "<group>"; };
+		C4539CFD26555023005B2849 /* xiongchumo_lianliankan_cartoon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = xiongchumo_lianliankan_cartoon.json; sourceTree = "<group>"; };
 		C47ECB8A2644342500EA8704 /* Washington.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Washington.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47ECBA02644342600EA8704 /* WashingtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WashingtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47ECBA42644342600EA8704 /* WashingtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashingtonTests.swift; sourceTree = "<group>"; };
@@ -165,7 +275,7 @@
 		C47ED1E326443DFF00EA8704 /* UComicTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UComicTCell.swift; sourceTree = "<group>"; };
 		C47ED1E426443DFF00EA8704 /* UReadBottomBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UReadBottomBar.swift; sourceTree = "<group>"; };
 		C47ED1E526443DFF00EA8704 /* UGuessLikeTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UGuessLikeTCell.swift; sourceTree = "<group>"; };
-		C47ED1E726443DFF00EA8704 /* UComicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UComicViewController.swift; sourceTree = "<group>"; };
+		C47ED1E726443DFF00EA8704 /* BobComicDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BobComicDetailViewController.swift; sourceTree = "<group>"; };
 		C47ED1E826443DFF00EA8704 /* UDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UDetailViewController.swift; sourceTree = "<group>"; };
 		C47ED1E926443DFF00EA8704 /* UOtherWorksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UOtherWorksViewController.swift; sourceTree = "<group>"; };
 		C47ED1EA26443DFF00EA8704 /* UChapterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UChapterViewController.swift; sourceTree = "<group>"; };
@@ -201,8 +311,12 @@
 		C47ED21826443DFF00EA8704 /* ParallaxHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxHeader.swift; sourceTree = "<group>"; };
 		C47ED21A26443DFF00EA8704 /* UNoticeBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UNoticeBar.swift; sourceTree = "<group>"; };
 		C47ED2A52644425E00EA8704 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4909863264FBB8000C9AD9F /* 古诗词.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "古诗词.json"; sourceTree = "<group>"; };
+		C4909876264FBC0500C9AD9F /* 儿歌.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "儿歌.json"; sourceTree = "<group>"; };
+		C490987B264FBC3200C9AD9F /* 故事集.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "故事集.json"; sourceTree = "<group>"; };
 		C4DFD49E264562F9001FB46B /* BobApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobApi.swift; sourceTree = "<group>"; };
 		C4DFD4A326456AA4001FB46B /* BobModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobModel.swift; sourceTree = "<group>"; };
+		C4DFD4B7264BFE53001FB46B /* BobBoutiqueListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobBoutiqueListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +360,148 @@
 				A4BA355EA6C4CF8FD5FBFE36 /* Pods-Washington.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		C4539B7626510C4D005B2849 /* 古诗动画 */ = {
+			isa = PBXGroup;
+			children = (
+				C4539BC926511238005B2849 /* beilehu_poem.json */,
+				C4539BD626511293005B2849 /* beiwa_poem.json */,
+				C4539BF9265113EF005B2849 /* qingbao_poem.json */,
+				C4539BFE2651156D005B2849 /* mengbao_poem.json */,
+				C4539C08265115CA005B2849 /* xiaojiaoya_poem.json */,
+				C4539C10265115FA005B2849 /* xiaolu_poem.json */,
+				C4539C1526511647005B2849 /* aishanggushi_poem.json */,
+				C4539C1A26511C4F005B2849 /* dongdong_poem.json */,
+				C4539C1F26511CC6005B2849 /* aixuexi_poem.json */,
+				C4539C2426511D3B005B2849 /* other_poem.json */,
+				C4539C2926511D8C005B2849 /* mimitegongdui_poem.json */,
+				C4539C2E26511DC5005B2849 /* baobao84_poem.json */,
+				C4539C3326511E07005B2849 /* maoxiaoshuai_poem.json */,
+				C4539C3826511E2E005B2849 /* dula_poem.json */,
+				C4539C3D26511EBE005B2849 /* huohuotu_poem.json */,
+				C4539C4226511EF0005B2849 /* zhixiang_poem.json */,
+			);
+			path = "古诗动画";
+			sourceTree = "<group>";
+		};
+		C4539B7726510CAD005B2849 /* 三字经动画 */ = {
+			isa = PBXGroup;
+			children = (
+				C4539C4726511F60005B2849 /* beilehu_sanzijing.json */,
+				C4539C622651207F005B2849 /* story_sanzijing.json */,
+				C4539C6A265120D0005B2849 /* guoxue_sanzijing.json */,
+				C4539C7E265121FC005B2849 /* normal_sanzijing.json */,
+			);
+			path = "三字经动画";
+			sourceTree = "<group>";
+		};
+		C4539B7826510CBC005B2849 /* 动画片 */ = {
+			isa = PBXGroup;
+			children = (
+				C4539BA8265110A4005B2849 /* chaojifeixia_cartoon.json */,
+				C4539CEE26554F4F005B2849 /* xiaozhupeiqi_cartoon.json */,
+				C4539CF326554FD9005B2849 /* zhuzhuxia_cartoon.json */,
+				C4539CF82655500E005B2849 /* xiongchumo_duiduipeng_cartoon.json */,
+				C4539CFD26555023005B2849 /* xiongchumo_lianliankan_cartoon.json */,
+			);
+			path = "动画片";
+			sourceTree = "<group>";
+		};
+		C4539B7926510CD4005B2849 /* 儿歌 */ = {
+			isa = PBXGroup;
+			children = (
+				C4539C8826512379005B2849 /* maoxiaoshaui_erge.json */,
+				C4539C9B26512406005B2849 /* beilehu_erge.json */,
+				C4539CAA265124B6005B2849 /* baobao84_erge.json */,
+				C4539CAF265124EF005B2849 /* guliguli_erge.json */,
+				C4539CB426512532005B2849 /* hali_erge.json */,
+				C4539CB92651255C005B2849 /* keyi_erge.json */,
+				C4539CBE2651259B005B2849 /* qingbao_erge.json */,
+				C4539CC3265125F7005B2849 /* huohuotu_erge.json */,
+				C4539CCD2651266E005B2849 /* landi_erge.json */,
+				C4539CD226512693005B2849 /* xionghaizi_erge.json */,
+				C4539CDC26512701005B2849 /* mengbao_erge.json */,
+			);
+			path = "儿歌";
+			sourceTree = "<group>";
+		};
+		C4539B7A26510CDA005B2849 /* 绘本 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "绘本";
+			sourceTree = "<group>";
+		};
+		C4539B7B26510D55005B2849 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				C4539B7C26510D6F005B2849 /* ViewController */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		C4539B7C26510D6F005B2849 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C4539B7D26510D8E005B2849 /* BobVideoViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C4539B9A26510F32005B2849 /* 故事 */ = {
+			isa = PBXGroup;
+			children = (
+				C4539B9B26510F9E005B2849 /* baobao84_strory.json */,
+				C4539BA326511038005B2849 /* ruiqi88_story.json */,
+			);
+			path = "故事";
+			sourceTree = "<group>";
+		};
+		C4539BB0265110FD005B2849 /* 英语儿歌 */ = {
+			isa = PBXGroup;
+			children = (
+				C4539BBC26511187005B2849 /* maoxiaoshuai_enErGe.json */,
+				C4539CA02651244E005B2849 /* beilehu_enErGe.json */,
+				C4539CA526512487005B2849 /* baobao84_enErGe.json */,
+				C4539CC826512635005B2849 /* yienzhuangyuan_enErGe.json */,
+				C4539CD7265126D1005B2849 /* xionghaizi_enErGe.json */,
+				C4539CE126512737005B2849 /* mengbao_enErGe.json */,
+			);
+			path = "英语儿歌";
+			sourceTree = "<group>";
+		};
+		C4539BDB265112BF005B2849 /* 国学 */ = {
+			isa = PBXGroup;
+			children = (
+				C4539BE726511335005B2849 /* xionghaizi_Guoxue.json */,
+				C4539BEC26511390005B2849 /* mengbao_Guoxue.json */,
+			);
+			path = "国学";
+			sourceTree = "<group>";
+		};
+		C4539C4C26511FD8005B2849 /* 百家姓 */ = {
+			isa = PBXGroup;
+			children = (
+				C4539C5526512002005B2849 /* dula_baijiaxing.json */,
+			);
+			path = "百家姓";
+			sourceTree = "<group>";
+		};
+		C4539C6F26512162005B2849 /* 弟子归 */ = {
+			isa = PBXGroup;
+			children = (
+				C4539C7026512180005B2849 /* qingbao_dizigui.json */,
+			);
+			path = "弟子归";
+			sourceTree = "<group>";
+		};
+		C4539C782651219F005B2849 /* 千字文 */ = {
+			isa = PBXGroup;
+			children = (
+				C4539C79265121BC005B2849 /* dula_qianziwen.json */,
+			);
+			path = "千字文";
 			sourceTree = "<group>";
 		};
 		C47ECB812644342500EA8704 = {
@@ -306,8 +562,22 @@
 		C47ED1AB26443DFF00EA8704 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				C4539C782651219F005B2849 /* 千字文 */,
+				C4539C6F26512162005B2849 /* 弟子归 */,
+				C4539C4C26511FD8005B2849 /* 百家姓 */,
+				C4539BDB265112BF005B2849 /* 国学 */,
+				C4539BB0265110FD005B2849 /* 英语儿歌 */,
+				C4539B9A26510F32005B2849 /* 故事 */,
+				C4539B7A26510CDA005B2849 /* 绘本 */,
+				C4539B7926510CD4005B2849 /* 儿歌 */,
+				C4539B7826510CBC005B2849 /* 动画片 */,
+				C4539B7726510CAD005B2849 /* 三字经动画 */,
+				C4539B7626510C4D005B2849 /* 古诗动画 */,
 				C47ED1AC26443DFF00EA8704 /* UAPI.swift */,
 				C4DFD49E264562F9001FB46B /* BobApi.swift */,
+				C4909863264FBB8000C9AD9F /* 古诗词.json */,
+				C4909876264FBC0500C9AD9F /* 儿歌.json */,
+				C490987B264FBC3200C9AD9F /* 故事集.json */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -348,6 +618,7 @@
 		C47ED1BE26443DFF00EA8704 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				C4539B7B26510D55005B2849 /* Video */,
 				C47ED1BF26443DFF00EA8704 /* Home */,
 				C47ED1D026443DFF00EA8704 /* Global.swift */,
 				C47ED1D126443DFF00EA8704 /* Search */,
@@ -364,6 +635,7 @@
 		C47ED1BF26443DFF00EA8704 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				C4DFD4B6264BFDD4001FB46B /* ViewModel */,
 				C47ED1C026443DFF00EA8704 /* View */,
 				C47ED1C826443DFF00EA8704 /* ViewController */,
 			);
@@ -449,6 +721,8 @@
 				C47ED1E326443DFF00EA8704 /* UComicTCell.swift */,
 				C47ED1E426443DFF00EA8704 /* UReadBottomBar.swift */,
 				C47ED1E526443DFF00EA8704 /* UGuessLikeTCell.swift */,
+				C4539B6C2650E5FC005B2849 /* BobChapterCollectionViewCell.swift */,
+				C4539B712650E655005B2849 /* BobChapterContainerView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -456,13 +730,14 @@
 		C47ED1E626443DFF00EA8704 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				C47ED1E726443DFF00EA8704 /* UComicViewController.swift */,
+				C47ED1E726443DFF00EA8704 /* BobComicDetailViewController.swift */,
 				C47ED1E826443DFF00EA8704 /* UDetailViewController.swift */,
 				C47ED1E926443DFF00EA8704 /* UOtherWorksViewController.swift */,
 				C47ED1EA26443DFF00EA8704 /* UChapterViewController.swift */,
 				C47ED1EB26443DFF00EA8704 /* UComicListViewController.swift */,
 				C47ED1EC26443DFF00EA8704 /* UReadViewController.swift */,
 				C47ED1ED26443DFF00EA8704 /* UCommentViewController.swift */,
+				C4539B672650E487005B2849 /* BobChapterViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -625,6 +900,14 @@
 			path = NoticeBar;
 			sourceTree = "<group>";
 		};
+		C4DFD4B6264BFDD4001FB46B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C4DFD4B7264BFE53001FB46B /* BobBoutiqueListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -733,8 +1016,60 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4539BFF2651156D005B2849 /* mengbao_poem.json in Resources */,
+				C4539C09265115CA005B2849 /* xiaojiaoya_poem.json in Resources */,
+				C4539CC926512635005B2849 /* yienzhuangyuan_enErGe.json in Resources */,
+				C4539C4326511EF0005B2849 /* zhixiang_poem.json in Resources */,
+				C4539CD326512693005B2849 /* xionghaizi_erge.json in Resources */,
+				C4539B9C26510F9E005B2849 /* baobao84_strory.json in Resources */,
 				C47ED2AD264442C600EA8704 /* Assets.xcassets in Resources */,
+				C4539CE226512737005B2849 /* mengbao_enErGe.json in Resources */,
+				C4539C632651207F005B2849 /* story_sanzijing.json in Resources */,
+				C4539C1B26511C4F005B2849 /* dongdong_poem.json in Resources */,
+				C4539C7A265121BC005B2849 /* dula_qianziwen.json in Resources */,
+				C4539C8926512379005B2849 /* maoxiaoshaui_erge.json in Resources */,
+				C4539C3926511E2E005B2849 /* dula_poem.json in Resources */,
+				C4539BA9265110A4005B2849 /* chaojifeixia_cartoon.json in Resources */,
+				C4539C2026511CC6005B2849 /* aixuexi_poem.json in Resources */,
+				C4539BCA26511238005B2849 /* beilehu_poem.json in Resources */,
+				C4539BE826511335005B2849 /* xionghaizi_Guoxue.json in Resources */,
+				C4539BED26511390005B2849 /* mengbao_Guoxue.json in Resources */,
+				C4539CA626512487005B2849 /* baobao84_enErGe.json in Resources */,
+				C4539C3E26511EBE005B2849 /* huohuotu_poem.json in Resources */,
+				C4539BA426511038005B2849 /* ruiqi88_story.json in Resources */,
+				C4539C9C26512406005B2849 /* beilehu_erge.json in Resources */,
+				C4909864264FBB8000C9AD9F /* 古诗词.json in Resources */,
+				C4539CF92655500E005B2849 /* xiongchumo_duiduipeng_cartoon.json in Resources */,
+				C4539CEF26554F4F005B2849 /* xiaozhupeiqi_cartoon.json in Resources */,
+				C4909877264FBC0500C9AD9F /* 儿歌.json in Resources */,
+				C4539C7126512180005B2849 /* qingbao_dizigui.json in Resources */,
+				C4539CBA2651255C005B2849 /* keyi_erge.json in Resources */,
+				C4539CFE26555023005B2849 /* xiongchumo_lianliankan_cartoon.json in Resources */,
+				C4539C4826511F60005B2849 /* beilehu_sanzijing.json in Resources */,
+				C4539C2A26511D8C005B2849 /* mimitegongdui_poem.json in Resources */,
+				C4539BD726511293005B2849 /* beiwa_poem.json in Resources */,
+				C4539BFA265113EF005B2849 /* qingbao_poem.json in Resources */,
+				C4539CF426554FD9005B2849 /* zhuzhuxia_cartoon.json in Resources */,
+				C4539C5626512002005B2849 /* dula_baijiaxing.json in Resources */,
+				C490987C264FBC3200C9AD9F /* 故事集.json in Resources */,
+				C4539CBF2651259B005B2849 /* qingbao_erge.json in Resources */,
+				C4539CCE2651266E005B2849 /* landi_erge.json in Resources */,
+				C4539CDD26512701005B2849 /* mengbao_erge.json in Resources */,
 				C47ED21E26443DFF00EA8704 /* LaunchScreen.storyboard in Resources */,
+				C4539C11265115FA005B2849 /* xiaolu_poem.json in Resources */,
+				C4539CB0265124EF005B2849 /* guliguli_erge.json in Resources */,
+				C4539C6B265120D0005B2849 /* guoxue_sanzijing.json in Resources */,
+				C4539CAB265124B6005B2849 /* baobao84_erge.json in Resources */,
+				C4539C2F26511DC5005B2849 /* baobao84_poem.json in Resources */,
+				C4539CA12651244E005B2849 /* beilehu_enErGe.json in Resources */,
+				C4539BBD26511187005B2849 /* maoxiaoshuai_enErGe.json in Resources */,
+				C4539C2526511D3B005B2849 /* other_poem.json in Resources */,
+				C4539C3426511E07005B2849 /* maoxiaoshuai_poem.json in Resources */,
+				C4539CB526512532005B2849 /* hali_erge.json in Resources */,
+				C4539CC4265125F7005B2849 /* huohuotu_erge.json in Resources */,
+				C4539CD8265126D1005B2849 /* xionghaizi_enErGe.json in Resources */,
+				C4539C7F265121FC005B2849 /* normal_sanzijing.json in Resources */,
+				C4539C1626511647005B2849 /* aishanggushi_poem.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -812,6 +1147,7 @@
 				C47ED26126443DFF00EA8704 /* UNavigationController.swift in Sources */,
 				C47ED24D26443DFF00EA8704 /* UReadViewController.swift in Sources */,
 				C47ED25026443DFF00EA8704 /* UTopCCell.swift in Sources */,
+				C4539B682650E487005B2849 /* BobChapterViewController.swift in Sources */,
 				C47ED26A26443DFF00EA8704 /* UNoticeBar.swift in Sources */,
 				C47ED23426443DFF00EA8704 /* BobSpecialViewController.swift in Sources */,
 				C47ED24226443DFF00EA8704 /* UReadTopBar.swift in Sources */,
@@ -819,10 +1155,12 @@
 				C47ED26426443DFF00EA8704 /* UCollectionViewSectionBackgroundLayout.swift in Sources */,
 				C47ED21B26443DFF00EA8704 /* UAPI.swift in Sources */,
 				C47ED22E26443DFF00EA8704 /* UBoardCCell.swift in Sources */,
+				C4DFD4B8264BFE53001FB46B /* BobBoutiqueListViewModel.swift in Sources */,
 				C47ED23026443DFF00EA8704 /* BobSubscibeListViewController.swift in Sources */,
 				C47ED22C26443DFF00EA8704 /* UComicCCell.swift in Sources */,
 				C47ED23926443DFF00EA8704 /* USearchTFoot.swift in Sources */,
 				C47ED23626443DFF00EA8704 /* BobRankListViewController.swift in Sources */,
+				C4539B7E26510D8E005B2849 /* BobVideoViewController.swift in Sources */,
 				C47ED25326443DFF00EA8704 /* USettingViewController.swift in Sources */,
 				C47ED26526443DFF00EA8704 /* URefresh.swift in Sources */,
 				C47ED22726443DFF00EA8704 /* StringExtension.swift in Sources */,
@@ -833,6 +1171,7 @@
 				C47ED22326443DFF00EA8704 /* UIBarButtonItemExtension.swift in Sources */,
 				C47ED22526443DFF00EA8704 /* UIImageExtensions.swift in Sources */,
 				C47ED22926443DFF00EA8704 /* BobComicCHead.swift in Sources */,
+				C4539B6D2650E5FC005B2849 /* BobChapterCollectionViewCell.swift in Sources */,
 				C47ED23B26443DFF00EA8704 /* UOtherWorksCCell.swift in Sources */,
 				C47ED25C26443DFF00EA8704 /* UBaseTableViewCell.swift in Sources */,
 				C47ED24C26443DFF00EA8704 /* UComicListViewController.swift in Sources */,
@@ -859,6 +1198,7 @@
 				C47ED21C26443DFF00EA8704 /* UModel.swift in Sources */,
 				C47ED26026443DFF00EA8704 /* UTabBarController.swift in Sources */,
 				C47ED25E26443DFF00EA8704 /* BobPageViewController.swift in Sources */,
+				C4539B722650E655005B2849 /* BobChapterContainerView.swift in Sources */,
 				C47ED22126443DFF00EA8704 /* UIColorExtension.swift in Sources */,
 				C47ED22626443DFF00EA8704 /* DispatchQueueExtension.swift in Sources */,
 				C47ED24F26443DFF00EA8704 /* URankCCell.swift in Sources */,
@@ -868,7 +1208,7 @@
 				C47ED23A26443DFF00EA8704 /* USearchViewController.swift in Sources */,
 				C47ED25926443DFF00EA8704 /* AppDelegate.swift in Sources */,
 				C47ED24E26443DFF00EA8704 /* UCommentViewController.swift in Sources */,
-				C47ED24826443DFF00EA8704 /* UComicViewController.swift in Sources */,
+				C47ED24826443DFF00EA8704 /* BobComicDetailViewController.swift in Sources */,
 				C47ED23D26443DFF00EA8704 /* UComicHead.swift in Sources */,
 				C47ED23526443DFF00EA8704 /* BobBoutiqueListViewController.swift in Sources */,
 				C47ED25826443DFF00EA8704 /* UDownloadListViewController.swift in Sources */,
