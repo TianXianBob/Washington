@@ -57,7 +57,12 @@ class BobChapterViewController: BobBaseViewController {
 extension BobChapterViewController: UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let m = dataSource[indexPath.row]
-        print(m.iconName)
+        guard let _ = URL(string: m.playUrl ?? "") else {
+            return
+        }
+        let vc = BobVideoViewController(model: m, list: dataSource)
+        vc.modalPresentationStyle = .fullScreen
+        navigationController?.present(vc, animated: true)
     }
     
     func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {

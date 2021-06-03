@@ -14,7 +14,7 @@ struct ContentListModel: HandyJSON {
     var isDeleted: Bool = false
     var modifyTime: String?
     var number: Int = 0
-    var playUrl: Int = 0
+    var playUrl: String?
     var serverNextPage: String?
     var rid: Int = 0
     var sourceId: Int = 0

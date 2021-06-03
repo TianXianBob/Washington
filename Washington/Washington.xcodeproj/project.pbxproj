@@ -12,9 +12,9 @@
 		C4539B6D2650E5FC005B2849 /* BobChapterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4539B6C2650E5FC005B2849 /* BobChapterCollectionViewCell.swift */; };
 		C4539B722650E655005B2849 /* BobChapterContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4539B712650E655005B2849 /* BobChapterContainerView.swift */; };
 		C4539B7E26510D8E005B2849 /* BobVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4539B7D26510D8E005B2849 /* BobVideoViewController.swift */; };
-		C4539B9C26510F9E005B2849 /* baobao84_strory.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539B9B26510F9E005B2849 /* baobao84_strory.json */; };
+		C4539B9C26510F9E005B2849 /* baobao84_huiben_strory.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539B9B26510F9E005B2849 /* baobao84_huiben_strory.json */; };
 		C4539BA426511038005B2849 /* ruiqi88_story.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539BA326511038005B2849 /* ruiqi88_story.json */; };
-		C4539BA9265110A4005B2849 /* chaojifeixia_cartoon.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539BA8265110A4005B2849 /* chaojifeixia_cartoon.json */; };
+		C4539BA9265110A4005B2849 /* chaojifeixia6_cartoon.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539BA8265110A4005B2849 /* chaojifeixia6_cartoon.json */; };
 		C4539BBD26511187005B2849 /* maoxiaoshuai_enErGe.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539BBC26511187005B2849 /* maoxiaoshuai_enErGe.json */; };
 		C4539BCA26511238005B2849 /* beilehu_poem.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539BC926511238005B2849 /* beilehu_poem.json */; };
 		C4539BD726511293005B2849 /* beiwa_poem.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539BD626511293005B2849 /* beiwa_poem.json */; };
@@ -45,7 +45,7 @@
 		C4539C9C26512406005B2849 /* beilehu_erge.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539C9B26512406005B2849 /* beilehu_erge.json */; };
 		C4539CA12651244E005B2849 /* beilehu_enErGe.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539CA02651244E005B2849 /* beilehu_enErGe.json */; };
 		C4539CA626512487005B2849 /* baobao84_enErGe.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539CA526512487005B2849 /* baobao84_enErGe.json */; };
-		C4539CAB265124B6005B2849 /* baobao84_erge.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539CAA265124B6005B2849 /* baobao84_erge.json */; };
+		C4539CAB265124B6005B2849 /* baobao84_jingdian_erge.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539CAA265124B6005B2849 /* baobao84_jingdian_erge.json */; };
 		C4539CB0265124EF005B2849 /* guliguli_erge.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539CAF265124EF005B2849 /* guliguli_erge.json */; };
 		C4539CB526512532005B2849 /* hali_erge.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539CB426512532005B2849 /* hali_erge.json */; };
 		C4539CBA2651255C005B2849 /* keyi_erge.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539CB92651255C005B2849 /* keyi_erge.json */; };
@@ -61,6 +61,36 @@
 		C4539CF426554FD9005B2849 /* zhuzhuxia_cartoon.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539CF326554FD9005B2849 /* zhuzhuxia_cartoon.json */; };
 		C4539CF92655500E005B2849 /* xiongchumo_duiduipeng_cartoon.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539CF82655500E005B2849 /* xiongchumo_duiduipeng_cartoon.json */; };
 		C4539CFE26555023005B2849 /* xiongchumo_lianliankan_cartoon.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539CFD26555023005B2849 /* xiongchumo_lianliankan_cartoon.json */; };
+		C4539D03265550B7005B2849 /* maoxiaoshuai_tonghua_story.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539D02265550B7005B2849 /* maoxiaoshuai_tonghua_story.json */; };
+		C4539D08265550E8005B2849 /* xiaomabaoli_cartoon.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539D07265550E8005B2849 /* xiaomabaoli_cartoon.json */; };
+		C4539D0D2655512E005B2849 /* beilehu_story.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539D0C2655512E005B2849 /* beilehu_story.json */; };
+		C4539D122655517D005B2849 /* xionghaizi_story.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539D112655517D005B2849 /* xionghaizi_story.json */; };
+		C4539D17265551CD005B2849 /* maoxiaoshuai_yuyan_story.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539D16265551CD005B2849 /* maoxiaoshuai_yuyan_story.json */; };
+		C4539D1C26555227005B2849 /* leduomeng_tonghua_story.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539D1B26555227005B2849 /* leduomeng_tonghua_story.json */; };
+		C4539D2426555253005B2849 /* beiwa_story.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539D2326555253005B2849 /* beiwa_story.json */; };
+		C4539D292655527E005B2849 /* maoxiaoshuai_chengyu_story.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539D282655527E005B2849 /* maoxiaoshuai_chengyu_story.json */; };
+		C4539D2E265552B2005B2849 /* bianxingjingche_cartoon.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539D2D265552B2005B2849 /* bianxingjingche_cartoon.json */; };
+		C4539D3326555481005B2849 /* baobao84_jianbihua_erge.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539D3226555481005B2849 /* baobao84_jianbihua_erge.json */; };
+		C4539D38265554B3005B2849 /* baobao84_hanzi1_erge.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539D37265554B3005B2849 /* baobao84_hanzi1_erge.json */; };
+		C4539D3D2655554F005B2849 /* baobao84_hanzi2_erge.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539D3C2655554F005B2849 /* baobao84_hanzi2_erge.json */; };
+		C4539D42265555A8005B2849 /* liankejiazu_tonghua_story.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539D41265555A8005B2849 /* liankejiazu_tonghua_story.json */; };
+		C4539D47265555DC005B2849 /* chaojifeixia1_cartoon.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539D46265555DC005B2849 /* chaojifeixia1_cartoon.json */; };
+		C4539D4F26555611005B2849 /* chaojifeixia2_cartoon.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539D4E26555611005B2849 /* chaojifeixia2_cartoon.json */; };
+		C4539D5426555634005B2849 /* chaojifeixia3_cartoon.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539D5326555634005B2849 /* chaojifeixia3_cartoon.json */; };
+		C4539D5C26555667005B2849 /* xiyangyang_cartoon.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539D5B26555667005B2849 /* xiyangyang_cartoon.json */; };
+		C4539D61265556AB005B2849 /* ruiqibaobao_cartoon.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539D60265556AB005B2849 /* ruiqibaobao_cartoon.json */; };
+		C4539D66265556DE005B2849 /* wangwangdadui1_cartoon.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539D65265556DE005B2849 /* wangwangdadui1_cartoon.json */; };
+		C4539D6B26555710005B2849 /* world_tonghua_story.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539D6A26555710005B2849 /* world_tonghua_story.json */; };
+		C4539D7026555740005B2849 /* zhongguo_jingdian_story.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539D6F26555740005B2849 /* zhongguo_jingdian_story.json */; };
+		C4539D7526555774005B2849 /* zhongguo_chengyu_story.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539D7426555774005B2849 /* zhongguo_chengyu_story.json */; };
+		C4539D7A26555793005B2849 /* maohelaoshu1_cartoon.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539D7926555793005B2849 /* maohelaoshu1_cartoon.json */; };
+		C4539D7F265557C1005B2849 /* maohelaoshu2_cartoon.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539D7E265557C1005B2849 /* maohelaoshu2_cartoon.json */; };
+		C4539D84265557D9005B2849 /* daomeixiong1_cartoon.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539D83265557D9005B2849 /* daomeixiong1_cartoon.json */; };
+		C4539D8926555816005B2849 /* beilehu_huiben_story.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539D8826555816005B2849 /* beilehu_huiben_story.json */; };
+		C4539D8E2655583E005B2849 /* dula_story.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539D8D2655583E005B2849 /* dula_story.json */; };
+		C4539D9B2655599B005B2849 /* daomeixiong2_cartoon.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539D9A2655599B005B2849 /* daomeixiong2_cartoon.json */; };
+		C4539DA326555A4B005B2849 /* green_tonghua_story.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539DA226555A4B005B2849 /* green_tonghua_story.json */; };
+		C4539DA826555A86005B2849 /* 1001_shenghua_story.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539DA726555A86005B2849 /* 1001_shenghua_story.json */; };
 		C47ECBA52644342600EA8704 /* WashingtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ECBA42644342600EA8704 /* WashingtonTests.swift */; };
 		C47ECBB02644342600EA8704 /* WashingtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ECBAF2644342600EA8704 /* WashingtonUITests.swift */; };
 		C47ED21B26443DFF00EA8704 /* UAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1AC26443DFF00EA8704 /* UAPI.swift */; };
@@ -145,6 +175,10 @@
 		C4909864264FBB8000C9AD9F /* 古诗词.json in Resources */ = {isa = PBXBuildFile; fileRef = C4909863264FBB8000C9AD9F /* 古诗词.json */; };
 		C4909877264FBC0500C9AD9F /* 儿歌.json in Resources */ = {isa = PBXBuildFile; fileRef = C4909876264FBC0500C9AD9F /* 儿歌.json */; };
 		C490987C264FBC3200C9AD9F /* 故事集.json in Resources */ = {isa = PBXBuildFile; fileRef = C490987B264FBC3200C9AD9F /* 故事集.json */; };
+		C49667362655679400D3A74E /* NavProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49667352655679400D3A74E /* NavProtocol.swift */; };
+		C496674026568BF800D3A74E /* BobPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C496673F26568BF800D3A74E /* BobPlayer.swift */; };
+		C4966775266226DC00D3A74E /* TraverseSubviews.m in Sources */ = {isa = PBXBuildFile; fileRef = C4966774266226DC00D3A74E /* TraverseSubviews.m */; };
+		C496677B2662280D00D3A74E /* ViewNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C496677A2662280D00D3A74E /* ViewNode.m */; };
 		C4DFD49F264562F9001FB46B /* BobApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DFD49E264562F9001FB46B /* BobApi.swift */; };
 		C4DFD4A426456AA4001FB46B /* BobModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DFD4A326456AA4001FB46B /* BobModel.swift */; };
 		C4DFD4B8264BFE53001FB46B /* BobBoutiqueListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DFD4B7264BFE53001FB46B /* BobBoutiqueListViewModel.swift */; };
@@ -175,9 +209,9 @@
 		C4539B6C2650E5FC005B2849 /* BobChapterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobChapterCollectionViewCell.swift; sourceTree = "<group>"; };
 		C4539B712650E655005B2849 /* BobChapterContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobChapterContainerView.swift; sourceTree = "<group>"; };
 		C4539B7D26510D8E005B2849 /* BobVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobVideoViewController.swift; sourceTree = "<group>"; };
-		C4539B9B26510F9E005B2849 /* baobao84_strory.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = baobao84_strory.json; sourceTree = "<group>"; };
+		C4539B9B26510F9E005B2849 /* baobao84_huiben_strory.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = baobao84_huiben_strory.json; sourceTree = "<group>"; };
 		C4539BA326511038005B2849 /* ruiqi88_story.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ruiqi88_story.json; sourceTree = "<group>"; };
-		C4539BA8265110A4005B2849 /* chaojifeixia_cartoon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chaojifeixia_cartoon.json; sourceTree = "<group>"; };
+		C4539BA8265110A4005B2849 /* chaojifeixia6_cartoon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chaojifeixia6_cartoon.json; sourceTree = "<group>"; };
 		C4539BBC26511187005B2849 /* maoxiaoshuai_enErGe.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = maoxiaoshuai_enErGe.json; sourceTree = "<group>"; };
 		C4539BC926511238005B2849 /* beilehu_poem.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = beilehu_poem.json; sourceTree = "<group>"; };
 		C4539BD626511293005B2849 /* beiwa_poem.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = beiwa_poem.json; sourceTree = "<group>"; };
@@ -208,7 +242,7 @@
 		C4539C9B26512406005B2849 /* beilehu_erge.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = beilehu_erge.json; sourceTree = "<group>"; };
 		C4539CA02651244E005B2849 /* beilehu_enErGe.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = beilehu_enErGe.json; sourceTree = "<group>"; };
 		C4539CA526512487005B2849 /* baobao84_enErGe.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = baobao84_enErGe.json; sourceTree = "<group>"; };
-		C4539CAA265124B6005B2849 /* baobao84_erge.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = baobao84_erge.json; sourceTree = "<group>"; };
+		C4539CAA265124B6005B2849 /* baobao84_jingdian_erge.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = baobao84_jingdian_erge.json; sourceTree = "<group>"; };
 		C4539CAF265124EF005B2849 /* guliguli_erge.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = guliguli_erge.json; sourceTree = "<group>"; };
 		C4539CB426512532005B2849 /* hali_erge.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hali_erge.json; sourceTree = "<group>"; };
 		C4539CB92651255C005B2849 /* keyi_erge.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = keyi_erge.json; sourceTree = "<group>"; };
@@ -224,6 +258,36 @@
 		C4539CF326554FD9005B2849 /* zhuzhuxia_cartoon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = zhuzhuxia_cartoon.json; sourceTree = "<group>"; };
 		C4539CF82655500E005B2849 /* xiongchumo_duiduipeng_cartoon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = xiongchumo_duiduipeng_cartoon.json; sourceTree = "<group>"; };
 		C4539CFD26555023005B2849 /* xiongchumo_lianliankan_cartoon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = xiongchumo_lianliankan_cartoon.json; sourceTree = "<group>"; };
+		C4539D02265550B7005B2849 /* maoxiaoshuai_tonghua_story.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = maoxiaoshuai_tonghua_story.json; sourceTree = "<group>"; };
+		C4539D07265550E8005B2849 /* xiaomabaoli_cartoon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = xiaomabaoli_cartoon.json; sourceTree = "<group>"; };
+		C4539D0C2655512E005B2849 /* beilehu_story.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = beilehu_story.json; sourceTree = "<group>"; };
+		C4539D112655517D005B2849 /* xionghaizi_story.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = xionghaizi_story.json; sourceTree = "<group>"; };
+		C4539D16265551CD005B2849 /* maoxiaoshuai_yuyan_story.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = maoxiaoshuai_yuyan_story.json; sourceTree = "<group>"; };
+		C4539D1B26555227005B2849 /* leduomeng_tonghua_story.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = leduomeng_tonghua_story.json; sourceTree = "<group>"; };
+		C4539D2326555253005B2849 /* beiwa_story.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = beiwa_story.json; sourceTree = "<group>"; };
+		C4539D282655527E005B2849 /* maoxiaoshuai_chengyu_story.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = maoxiaoshuai_chengyu_story.json; sourceTree = "<group>"; };
+		C4539D2D265552B2005B2849 /* bianxingjingche_cartoon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bianxingjingche_cartoon.json; sourceTree = "<group>"; };
+		C4539D3226555481005B2849 /* baobao84_jianbihua_erge.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = baobao84_jianbihua_erge.json; sourceTree = "<group>"; };
+		C4539D37265554B3005B2849 /* baobao84_hanzi1_erge.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = baobao84_hanzi1_erge.json; sourceTree = "<group>"; };
+		C4539D3C2655554F005B2849 /* baobao84_hanzi2_erge.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = baobao84_hanzi2_erge.json; sourceTree = "<group>"; };
+		C4539D41265555A8005B2849 /* liankejiazu_tonghua_story.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = liankejiazu_tonghua_story.json; sourceTree = "<group>"; };
+		C4539D46265555DC005B2849 /* chaojifeixia1_cartoon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chaojifeixia1_cartoon.json; sourceTree = "<group>"; };
+		C4539D4E26555611005B2849 /* chaojifeixia2_cartoon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chaojifeixia2_cartoon.json; sourceTree = "<group>"; };
+		C4539D5326555634005B2849 /* chaojifeixia3_cartoon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chaojifeixia3_cartoon.json; sourceTree = "<group>"; };
+		C4539D5B26555667005B2849 /* xiyangyang_cartoon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = xiyangyang_cartoon.json; sourceTree = "<group>"; };
+		C4539D60265556AB005B2849 /* ruiqibaobao_cartoon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ruiqibaobao_cartoon.json; sourceTree = "<group>"; };
+		C4539D65265556DE005B2849 /* wangwangdadui1_cartoon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = wangwangdadui1_cartoon.json; sourceTree = "<group>"; };
+		C4539D6A26555710005B2849 /* world_tonghua_story.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = world_tonghua_story.json; sourceTree = "<group>"; };
+		C4539D6F26555740005B2849 /* zhongguo_jingdian_story.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = zhongguo_jingdian_story.json; sourceTree = "<group>"; };
+		C4539D7426555774005B2849 /* zhongguo_chengyu_story.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = zhongguo_chengyu_story.json; sourceTree = "<group>"; };
+		C4539D7926555793005B2849 /* maohelaoshu1_cartoon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = maohelaoshu1_cartoon.json; sourceTree = "<group>"; };
+		C4539D7E265557C1005B2849 /* maohelaoshu2_cartoon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = maohelaoshu2_cartoon.json; sourceTree = "<group>"; };
+		C4539D83265557D9005B2849 /* daomeixiong1_cartoon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = daomeixiong1_cartoon.json; sourceTree = "<group>"; };
+		C4539D8826555816005B2849 /* beilehu_huiben_story.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = beilehu_huiben_story.json; sourceTree = "<group>"; };
+		C4539D8D2655583E005B2849 /* dula_story.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dula_story.json; sourceTree = "<group>"; };
+		C4539D9A2655599B005B2849 /* daomeixiong2_cartoon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = daomeixiong2_cartoon.json; sourceTree = "<group>"; };
+		C4539DA226555A4B005B2849 /* green_tonghua_story.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = green_tonghua_story.json; sourceTree = "<group>"; };
+		C4539DA726555A86005B2849 /* 1001_shenghua_story.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = 1001_shenghua_story.json; sourceTree = "<group>"; };
 		C47ECB8A2644342500EA8704 /* Washington.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Washington.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47ECBA02644342600EA8704 /* WashingtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WashingtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47ECBA42644342600EA8704 /* WashingtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashingtonTests.swift; sourceTree = "<group>"; };
@@ -314,6 +378,13 @@
 		C4909863264FBB8000C9AD9F /* 古诗词.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "古诗词.json"; sourceTree = "<group>"; };
 		C4909876264FBC0500C9AD9F /* 儿歌.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "儿歌.json"; sourceTree = "<group>"; };
 		C490987B264FBC3200C9AD9F /* 故事集.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "故事集.json"; sourceTree = "<group>"; };
+		C49667352655679400D3A74E /* NavProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavProtocol.swift; sourceTree = "<group>"; };
+		C496673F26568BF800D3A74E /* BobPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobPlayer.swift; sourceTree = "<group>"; };
+		C4966772266226DC00D3A74E /* Washington-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Washington-Bridging-Header.h"; sourceTree = "<group>"; };
+		C4966773266226DC00D3A74E /* TraverseSubviews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TraverseSubviews.h; sourceTree = "<group>"; };
+		C4966774266226DC00D3A74E /* TraverseSubviews.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TraverseSubviews.m; sourceTree = "<group>"; };
+		C49667792662280D00D3A74E /* ViewNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewNode.h; sourceTree = "<group>"; };
+		C496677A2662280D00D3A74E /* ViewNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewNode.m; sourceTree = "<group>"; };
 		C4DFD49E264562F9001FB46B /* BobApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobApi.swift; sourceTree = "<group>"; };
 		C4DFD4A326456AA4001FB46B /* BobModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobModel.swift; sourceTree = "<group>"; };
 		C4DFD4B7264BFE53001FB46B /* BobBoutiqueListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobBoutiqueListViewModel.swift; sourceTree = "<group>"; };
@@ -399,11 +470,23 @@
 		C4539B7826510CBC005B2849 /* 动画片 */ = {
 			isa = PBXGroup;
 			children = (
-				C4539BA8265110A4005B2849 /* chaojifeixia_cartoon.json */,
+				C4539D5326555634005B2849 /* chaojifeixia3_cartoon.json */,
+				C4539BA8265110A4005B2849 /* chaojifeixia6_cartoon.json */,
+				C4539D4E26555611005B2849 /* chaojifeixia2_cartoon.json */,
 				C4539CEE26554F4F005B2849 /* xiaozhupeiqi_cartoon.json */,
 				C4539CF326554FD9005B2849 /* zhuzhuxia_cartoon.json */,
 				C4539CF82655500E005B2849 /* xiongchumo_duiduipeng_cartoon.json */,
 				C4539CFD26555023005B2849 /* xiongchumo_lianliankan_cartoon.json */,
+				C4539D07265550E8005B2849 /* xiaomabaoli_cartoon.json */,
+				C4539D2D265552B2005B2849 /* bianxingjingche_cartoon.json */,
+				C4539D46265555DC005B2849 /* chaojifeixia1_cartoon.json */,
+				C4539D5B26555667005B2849 /* xiyangyang_cartoon.json */,
+				C4539D60265556AB005B2849 /* ruiqibaobao_cartoon.json */,
+				C4539D65265556DE005B2849 /* wangwangdadui1_cartoon.json */,
+				C4539D7926555793005B2849 /* maohelaoshu1_cartoon.json */,
+				C4539D7E265557C1005B2849 /* maohelaoshu2_cartoon.json */,
+				C4539D83265557D9005B2849 /* daomeixiong1_cartoon.json */,
+				C4539D9A2655599B005B2849 /* daomeixiong2_cartoon.json */,
 			);
 			path = "动画片";
 			sourceTree = "<group>";
@@ -413,7 +496,7 @@
 			children = (
 				C4539C8826512379005B2849 /* maoxiaoshaui_erge.json */,
 				C4539C9B26512406005B2849 /* beilehu_erge.json */,
-				C4539CAA265124B6005B2849 /* baobao84_erge.json */,
+				C4539CAA265124B6005B2849 /* baobao84_jingdian_erge.json */,
 				C4539CAF265124EF005B2849 /* guliguli_erge.json */,
 				C4539CB426512532005B2849 /* hali_erge.json */,
 				C4539CB92651255C005B2849 /* keyi_erge.json */,
@@ -422,6 +505,9 @@
 				C4539CCD2651266E005B2849 /* landi_erge.json */,
 				C4539CD226512693005B2849 /* xionghaizi_erge.json */,
 				C4539CDC26512701005B2849 /* mengbao_erge.json */,
+				C4539D3226555481005B2849 /* baobao84_jianbihua_erge.json */,
+				C4539D37265554B3005B2849 /* baobao84_hanzi1_erge.json */,
+				C4539D3C2655554F005B2849 /* baobao84_hanzi2_erge.json */,
 			);
 			path = "儿歌";
 			sourceTree = "<group>";
@@ -452,8 +538,23 @@
 		C4539B9A26510F32005B2849 /* 故事 */ = {
 			isa = PBXGroup;
 			children = (
-				C4539B9B26510F9E005B2849 /* baobao84_strory.json */,
+				C4539B9B26510F9E005B2849 /* baobao84_huiben_strory.json */,
 				C4539BA326511038005B2849 /* ruiqi88_story.json */,
+				C4539D02265550B7005B2849 /* maoxiaoshuai_tonghua_story.json */,
+				C4539D0C2655512E005B2849 /* beilehu_story.json */,
+				C4539D112655517D005B2849 /* xionghaizi_story.json */,
+				C4539D16265551CD005B2849 /* maoxiaoshuai_yuyan_story.json */,
+				C4539D1B26555227005B2849 /* leduomeng_tonghua_story.json */,
+				C4539D2326555253005B2849 /* beiwa_story.json */,
+				C4539D282655527E005B2849 /* maoxiaoshuai_chengyu_story.json */,
+				C4539D41265555A8005B2849 /* liankejiazu_tonghua_story.json */,
+				C4539D6A26555710005B2849 /* world_tonghua_story.json */,
+				C4539D6F26555740005B2849 /* zhongguo_jingdian_story.json */,
+				C4539D7426555774005B2849 /* zhongguo_chengyu_story.json */,
+				C4539D8826555816005B2849 /* beilehu_huiben_story.json */,
+				C4539D8D2655583E005B2849 /* dula_story.json */,
+				C4539DA226555A4B005B2849 /* green_tonghua_story.json */,
+				C4539DA726555A86005B2849 /* 1001_shenghua_story.json */,
 			);
 			path = "故事";
 			sourceTree = "<group>";
@@ -547,6 +648,8 @@
 		C47ED06326443BCD00EA8704 /* Washington */ = {
 			isa = PBXGroup;
 			children = (
+				C49667712662269000D3A74E /* Objc_tool */,
+				C49667342655677A00D3A74E /* Protocol */,
 				C47ED2A52644425E00EA8704 /* Assets.xcassets */,
 				C47ED1AB26443DFF00EA8704 /* API */,
 				C47ED1B026443DFF00EA8704 /* Base.lproj */,
@@ -848,6 +951,7 @@
 		C47ED20D26443DFF00EA8704 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				C496673E26568BD100D3A74E /* Temp */,
 				C47ED20E26443DFF00EA8704 /* CollectionViewLayout */,
 				C47ED21126443DFF00EA8704 /* Refresh */,
 				C47ED21326443DFF00EA8704 /* EmptyDataSet */,
@@ -898,6 +1002,34 @@
 				C47ED21A26443DFF00EA8704 /* UNoticeBar.swift */,
 			);
 			path = NoticeBar;
+			sourceTree = "<group>";
+		};
+		C49667342655677A00D3A74E /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				C49667352655679400D3A74E /* NavProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		C496673E26568BD100D3A74E /* Temp */ = {
+			isa = PBXGroup;
+			children = (
+				C496673F26568BF800D3A74E /* BobPlayer.swift */,
+			);
+			path = Temp;
+			sourceTree = "<group>";
+		};
+		C49667712662269000D3A74E /* Objc_tool */ = {
+			isa = PBXGroup;
+			children = (
+				C4966773266226DC00D3A74E /* TraverseSubviews.h */,
+				C4966774266226DC00D3A74E /* TraverseSubviews.m */,
+				C4966772266226DC00D3A74E /* Washington-Bridging-Header.h */,
+				C49667792662280D00D3A74E /* ViewNode.h */,
+				C496677A2662280D00D3A74E /* ViewNode.m */,
+			);
+			path = Objc_tool;
 			sourceTree = "<group>";
 		};
 		C4DFD4B6264BFDD4001FB46B /* ViewModel */ = {
@@ -980,6 +1112,7 @@
 				TargetAttributes = {
 					C47ECB892644342500EA8704 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 					C47ECB9F2644342600EA8704 = {
 						CreatedOnToolsVersion = 12.3;
@@ -1018,39 +1151,66 @@
 			files = (
 				C4539BFF2651156D005B2849 /* mengbao_poem.json in Resources */,
 				C4539C09265115CA005B2849 /* xiaojiaoya_poem.json in Resources */,
+				C4539D42265555A8005B2849 /* liankejiazu_tonghua_story.json in Resources */,
 				C4539CC926512635005B2849 /* yienzhuangyuan_enErGe.json in Resources */,
 				C4539C4326511EF0005B2849 /* zhixiang_poem.json in Resources */,
 				C4539CD326512693005B2849 /* xionghaizi_erge.json in Resources */,
-				C4539B9C26510F9E005B2849 /* baobao84_strory.json in Resources */,
+				C4539D84265557D9005B2849 /* daomeixiong1_cartoon.json in Resources */,
+				C4539B9C26510F9E005B2849 /* baobao84_huiben_strory.json in Resources */,
 				C47ED2AD264442C600EA8704 /* Assets.xcassets in Resources */,
 				C4539CE226512737005B2849 /* mengbao_enErGe.json in Resources */,
 				C4539C632651207F005B2849 /* story_sanzijing.json in Resources */,
 				C4539C1B26511C4F005B2849 /* dongdong_poem.json in Resources */,
 				C4539C7A265121BC005B2849 /* dula_qianziwen.json in Resources */,
 				C4539C8926512379005B2849 /* maoxiaoshaui_erge.json in Resources */,
+				C4539D3D2655554F005B2849 /* baobao84_hanzi2_erge.json in Resources */,
+				C4539D5426555634005B2849 /* chaojifeixia3_cartoon.json in Resources */,
+				C4539D38265554B3005B2849 /* baobao84_hanzi1_erge.json in Resources */,
+				C4539D4F26555611005B2849 /* chaojifeixia2_cartoon.json in Resources */,
 				C4539C3926511E2E005B2849 /* dula_poem.json in Resources */,
-				C4539BA9265110A4005B2849 /* chaojifeixia_cartoon.json in Resources */,
+				C4539D47265555DC005B2849 /* chaojifeixia1_cartoon.json in Resources */,
+				C4539D1C26555227005B2849 /* leduomeng_tonghua_story.json in Resources */,
+				C4539BA9265110A4005B2849 /* chaojifeixia6_cartoon.json in Resources */,
 				C4539C2026511CC6005B2849 /* aixuexi_poem.json in Resources */,
+				C4539D7526555774005B2849 /* zhongguo_chengyu_story.json in Resources */,
 				C4539BCA26511238005B2849 /* beilehu_poem.json in Resources */,
+				C4539DA326555A4B005B2849 /* green_tonghua_story.json in Resources */,
 				C4539BE826511335005B2849 /* xionghaizi_Guoxue.json in Resources */,
 				C4539BED26511390005B2849 /* mengbao_Guoxue.json in Resources */,
 				C4539CA626512487005B2849 /* baobao84_enErGe.json in Resources */,
+				C4539D08265550E8005B2849 /* xiaomabaoli_cartoon.json in Resources */,
 				C4539C3E26511EBE005B2849 /* huohuotu_poem.json in Resources */,
 				C4539BA426511038005B2849 /* ruiqi88_story.json in Resources */,
 				C4539C9C26512406005B2849 /* beilehu_erge.json in Resources */,
+				C4539D7A26555793005B2849 /* maohelaoshu1_cartoon.json in Resources */,
 				C4909864264FBB8000C9AD9F /* 古诗词.json in Resources */,
 				C4539CF92655500E005B2849 /* xiongchumo_duiduipeng_cartoon.json in Resources */,
+				C4539DA826555A86005B2849 /* 1001_shenghua_story.json in Resources */,
+				C4539D5C26555667005B2849 /* xiyangyang_cartoon.json in Resources */,
+				C4539D2426555253005B2849 /* beiwa_story.json in Resources */,
 				C4539CEF26554F4F005B2849 /* xiaozhupeiqi_cartoon.json in Resources */,
+				C4539D03265550B7005B2849 /* maoxiaoshuai_tonghua_story.json in Resources */,
+				C4539D292655527E005B2849 /* maoxiaoshuai_chengyu_story.json in Resources */,
 				C4909877264FBC0500C9AD9F /* 儿歌.json in Resources */,
+				C4539D8926555816005B2849 /* beilehu_huiben_story.json in Resources */,
+				C4539D7026555740005B2849 /* zhongguo_jingdian_story.json in Resources */,
+				C4539D2E265552B2005B2849 /* bianxingjingche_cartoon.json in Resources */,
+				C4539D3326555481005B2849 /* baobao84_jianbihua_erge.json in Resources */,
 				C4539C7126512180005B2849 /* qingbao_dizigui.json in Resources */,
 				C4539CBA2651255C005B2849 /* keyi_erge.json in Resources */,
 				C4539CFE26555023005B2849 /* xiongchumo_lianliankan_cartoon.json in Resources */,
+				C4539D61265556AB005B2849 /* ruiqibaobao_cartoon.json in Resources */,
 				C4539C4826511F60005B2849 /* beilehu_sanzijing.json in Resources */,
 				C4539C2A26511D8C005B2849 /* mimitegongdui_poem.json in Resources */,
 				C4539BD726511293005B2849 /* beiwa_poem.json in Resources */,
+				C4539D7F265557C1005B2849 /* maohelaoshu2_cartoon.json in Resources */,
+				C4539D8E2655583E005B2849 /* dula_story.json in Resources */,
+				C4539D17265551CD005B2849 /* maoxiaoshuai_yuyan_story.json in Resources */,
+				C4539D66265556DE005B2849 /* wangwangdadui1_cartoon.json in Resources */,
 				C4539BFA265113EF005B2849 /* qingbao_poem.json in Resources */,
 				C4539CF426554FD9005B2849 /* zhuzhuxia_cartoon.json in Resources */,
 				C4539C5626512002005B2849 /* dula_baijiaxing.json in Resources */,
+				C4539D0D2655512E005B2849 /* beilehu_story.json in Resources */,
 				C490987C264FBC3200C9AD9F /* 故事集.json in Resources */,
 				C4539CBF2651259B005B2849 /* qingbao_erge.json in Resources */,
 				C4539CCE2651266E005B2849 /* landi_erge.json in Resources */,
@@ -1059,17 +1219,20 @@
 				C4539C11265115FA005B2849 /* xiaolu_poem.json in Resources */,
 				C4539CB0265124EF005B2849 /* guliguli_erge.json in Resources */,
 				C4539C6B265120D0005B2849 /* guoxue_sanzijing.json in Resources */,
-				C4539CAB265124B6005B2849 /* baobao84_erge.json in Resources */,
+				C4539CAB265124B6005B2849 /* baobao84_jingdian_erge.json in Resources */,
 				C4539C2F26511DC5005B2849 /* baobao84_poem.json in Resources */,
 				C4539CA12651244E005B2849 /* beilehu_enErGe.json in Resources */,
 				C4539BBD26511187005B2849 /* maoxiaoshuai_enErGe.json in Resources */,
 				C4539C2526511D3B005B2849 /* other_poem.json in Resources */,
+				C4539D122655517D005B2849 /* xionghaizi_story.json in Resources */,
 				C4539C3426511E07005B2849 /* maoxiaoshuai_poem.json in Resources */,
 				C4539CB526512532005B2849 /* hali_erge.json in Resources */,
 				C4539CC4265125F7005B2849 /* huohuotu_erge.json in Resources */,
 				C4539CD8265126D1005B2849 /* xionghaizi_enErGe.json in Resources */,
+				C4539D9B2655599B005B2849 /* daomeixiong2_cartoon.json in Resources */,
 				C4539C7F265121FC005B2849 /* normal_sanzijing.json in Resources */,
 				C4539C1626511647005B2849 /* aishanggushi_poem.json in Resources */,
+				C4539D6B26555710005B2849 /* world_tonghua_story.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1159,12 +1322,14 @@
 				C47ED23026443DFF00EA8704 /* BobSubscibeListViewController.swift in Sources */,
 				C47ED22C26443DFF00EA8704 /* UComicCCell.swift in Sources */,
 				C47ED23926443DFF00EA8704 /* USearchTFoot.swift in Sources */,
+				C4966775266226DC00D3A74E /* TraverseSubviews.m in Sources */,
 				C47ED23626443DFF00EA8704 /* BobRankListViewController.swift in Sources */,
 				C4539B7E26510D8E005B2849 /* BobVideoViewController.swift in Sources */,
 				C47ED25326443DFF00EA8704 /* USettingViewController.swift in Sources */,
 				C47ED26526443DFF00EA8704 /* URefresh.swift in Sources */,
 				C47ED22726443DFF00EA8704 /* StringExtension.swift in Sources */,
 				C47ED25B26443DFF00EA8704 /* UBaseCollectionViewCell.swift in Sources */,
+				C496677B2662280D00D3A74E /* ViewNode.m in Sources */,
 				C47ED24626443DFF00EA8704 /* UReadBottomBar.swift in Sources */,
 				C47ED23826443DFF00EA8704 /* USearchTHead.swift in Sources */,
 				C47ED23C26443DFF00EA8704 /* UChapterCHead.swift in Sources */,
@@ -1198,6 +1363,7 @@
 				C47ED21C26443DFF00EA8704 /* UModel.swift in Sources */,
 				C47ED26026443DFF00EA8704 /* UTabBarController.swift in Sources */,
 				C47ED25E26443DFF00EA8704 /* BobPageViewController.swift in Sources */,
+				C49667362655679400D3A74E /* NavProtocol.swift in Sources */,
 				C4539B722650E655005B2849 /* BobChapterContainerView.swift in Sources */,
 				C47ED22126443DFF00EA8704 /* UIColorExtension.swift in Sources */,
 				C47ED22626443DFF00EA8704 /* DispatchQueueExtension.swift in Sources */,
@@ -1217,6 +1383,7 @@
 				C47ED25426443DFF00EA8704 /* UMineViewController.swift in Sources */,
 				C47ED24026443DFF00EA8704 /* UChapterCCell.swift in Sources */,
 				C47ED25726443DFF00EA8704 /* UDocumentListViewController.swift in Sources */,
+				C496674026568BF800D3A74E /* BobPlayer.swift in Sources */,
 				C47ED23326443DFF00EA8704 /* BobHomeViewController.swift in Sources */,
 				C4DFD49F264562F9001FB46B /* BobApi.swift in Sources */,
 				C47ED24426443DFF00EA8704 /* UDescriptionTCell.swift in Sources */,
@@ -1388,6 +1555,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 74L6VPF8C3;
 				INFOPLIST_FILE = Washington/Info.plist;
@@ -1398,6 +1566,8 @@
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bob.Washington;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Washington/Objc_tool/Washington-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1409,6 +1579,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 74L6VPF8C3;
 				INFOPLIST_FILE = Washington/Info.plist;
@@ -1419,6 +1590,7 @@
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bob.Washington;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Washington/Objc_tool/Washington-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
