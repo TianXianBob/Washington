@@ -156,7 +156,7 @@
 		C47ED25926443DFF00EA8704 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED20026443DFF00EA8704 /* AppDelegate.swift */; };
 		C47ED25A26443DFF00EA8704 /* UBaseTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED20326443DFF00EA8704 /* UBaseTableViewHeaderFooterView.swift */; };
 		C47ED25B26443DFF00EA8704 /* UBaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED20426443DFF00EA8704 /* UBaseCollectionViewCell.swift */; };
-		C47ED25C26443DFF00EA8704 /* UBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED20526443DFF00EA8704 /* UBaseTableViewCell.swift */; };
+		C47ED25C26443DFF00EA8704 /* BobBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED20526443DFF00EA8704 /* BobBaseTableViewCell.swift */; };
 		C47ED25D26443DFF00EA8704 /* BobBaseCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED20626443DFF00EA8704 /* BobBaseCollectionReusableView.swift */; };
 		C47ED25E26443DFF00EA8704 /* BobPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED20826443DFF00EA8704 /* BobPageViewController.swift */; };
 		C47ED25F26443DFF00EA8704 /* BobBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED20926443DFF00EA8704 /* BobBaseViewController.swift */; };
@@ -179,6 +179,9 @@
 		C496674026568BF800D3A74E /* BobPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C496673F26568BF800D3A74E /* BobPlayer.swift */; };
 		C4966775266226DC00D3A74E /* TraverseSubviews.m in Sources */ = {isa = PBXBuildFile; fileRef = C4966774266226DC00D3A74E /* TraverseSubviews.m */; };
 		C496677B2662280D00D3A74E /* ViewNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C496677A2662280D00D3A74E /* ViewNode.m */; };
+		C4BD73E5266C9D9C00B0C429 /* BobVideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD73E4266C9D9C00B0C429 /* BobVideoTableViewCell.swift */; };
+		C4CEFEE7266CBBE200CAAEBC /* BobSwitchVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CEFEE6266CBBE200CAAEBC /* BobSwitchVideoViewController.swift */; };
+		C4CEFEE9266CD28100CAAEBC /* BobCommonSelectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CEFEE8266CD28100CAAEBC /* BobCommonSelectionTableViewCell.swift */; };
 		C4DFD49F264562F9001FB46B /* BobApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DFD49E264562F9001FB46B /* BobApi.swift */; };
 		C4DFD4A426456AA4001FB46B /* BobModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DFD4A326456AA4001FB46B /* BobModel.swift */; };
 		C4DFD4B8264BFE53001FB46B /* BobBoutiqueListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DFD4B7264BFE53001FB46B /* BobBoutiqueListViewModel.swift */; };
@@ -359,7 +362,7 @@
 		C47ED20026443DFF00EA8704 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C47ED20326443DFF00EA8704 /* UBaseTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UBaseTableViewHeaderFooterView.swift; sourceTree = "<group>"; };
 		C47ED20426443DFF00EA8704 /* UBaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UBaseCollectionViewCell.swift; sourceTree = "<group>"; };
-		C47ED20526443DFF00EA8704 /* UBaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UBaseTableViewCell.swift; sourceTree = "<group>"; };
+		C47ED20526443DFF00EA8704 /* BobBaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BobBaseTableViewCell.swift; sourceTree = "<group>"; };
 		C47ED20626443DFF00EA8704 /* BobBaseCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BobBaseCollectionReusableView.swift; sourceTree = "<group>"; };
 		C47ED20826443DFF00EA8704 /* BobPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BobPageViewController.swift; sourceTree = "<group>"; };
 		C47ED20926443DFF00EA8704 /* BobBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BobBaseViewController.swift; sourceTree = "<group>"; };
@@ -385,6 +388,9 @@
 		C4966774266226DC00D3A74E /* TraverseSubviews.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TraverseSubviews.m; sourceTree = "<group>"; };
 		C49667792662280D00D3A74E /* ViewNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewNode.h; sourceTree = "<group>"; };
 		C496677A2662280D00D3A74E /* ViewNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewNode.m; sourceTree = "<group>"; };
+		C4BD73E4266C9D9C00B0C429 /* BobVideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobVideoTableViewCell.swift; sourceTree = "<group>"; };
+		C4CEFEE6266CBBE200CAAEBC /* BobSwitchVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobSwitchVideoViewController.swift; sourceTree = "<group>"; };
+		C4CEFEE8266CD28100CAAEBC /* BobCommonSelectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobCommonSelectionTableViewCell.swift; sourceTree = "<group>"; };
 		C4DFD49E264562F9001FB46B /* BobApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobApi.swift; sourceTree = "<group>"; };
 		C4DFD4A326456AA4001FB46B /* BobModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobModel.swift; sourceTree = "<group>"; };
 		C4DFD4B7264BFE53001FB46B /* BobBoutiqueListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobBoutiqueListViewModel.swift; sourceTree = "<group>"; };
@@ -522,6 +528,7 @@
 		C4539B7B26510D55005B2849 /* Video */ = {
 			isa = PBXGroup;
 			children = (
+				C4BD73E0266C9D7000B0C429 /* View */,
 				C4539B7C26510D6F005B2849 /* ViewController */,
 			);
 			path = Video;
@@ -531,6 +538,7 @@
 			isa = PBXGroup;
 			children = (
 				C4539B7D26510D8E005B2849 /* BobVideoViewController.swift */,
+				C4CEFEE6266CBBE200CAAEBC /* BobSwitchVideoViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -930,7 +938,7 @@
 			children = (
 				C47ED20326443DFF00EA8704 /* UBaseTableViewHeaderFooterView.swift */,
 				C47ED20426443DFF00EA8704 /* UBaseCollectionViewCell.swift */,
-				C47ED20526443DFF00EA8704 /* UBaseTableViewCell.swift */,
+				C47ED20526443DFF00EA8704 /* BobBaseTableViewCell.swift */,
 				C47ED20626443DFF00EA8704 /* BobBaseCollectionReusableView.swift */,
 			);
 			path = View;
@@ -1030,6 +1038,15 @@
 				C496677A2662280D00D3A74E /* ViewNode.m */,
 			);
 			path = Objc_tool;
+			sourceTree = "<group>";
+		};
+		C4BD73E0266C9D7000B0C429 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4BD73E4266C9D9C00B0C429 /* BobVideoTableViewCell.swift */,
+				C4CEFEE8266CD28100CAAEBC /* BobCommonSelectionTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		C4DFD4B6264BFDD4001FB46B /* ViewModel */ = {
@@ -1306,6 +1323,7 @@
 				C47ED23226443DFF00EA8704 /* BobUpdateListViewController.swift in Sources */,
 				C47ED26926443DFF00EA8704 /* ParallaxHeader.swift in Sources */,
 				C47ED25A26443DFF00EA8704 /* UBaseTableViewHeaderFooterView.swift in Sources */,
+				C4BD73E5266C9D9C00B0C429 /* BobVideoTableViewCell.swift in Sources */,
 				C47ED22226443DFF00EA8704 /* UIViewExtension.swift in Sources */,
 				C47ED26126443DFF00EA8704 /* UNavigationController.swift in Sources */,
 				C47ED24D26443DFF00EA8704 /* UReadViewController.swift in Sources */,
@@ -1338,12 +1356,13 @@
 				C47ED22926443DFF00EA8704 /* BobComicCHead.swift in Sources */,
 				C4539B6D2650E5FC005B2849 /* BobChapterCollectionViewCell.swift in Sources */,
 				C47ED23B26443DFF00EA8704 /* UOtherWorksCCell.swift in Sources */,
-				C47ED25C26443DFF00EA8704 /* UBaseTableViewCell.swift in Sources */,
+				C47ED25C26443DFF00EA8704 /* BobBaseTableViewCell.swift in Sources */,
 				C47ED24C26443DFF00EA8704 /* UComicListViewController.swift in Sources */,
 				C47ED23126443DFF00EA8704 /* BobVIPListViewController.swift in Sources */,
 				C47ED22B26443DFF00EA8704 /* UComicCFoot.swift in Sources */,
 				C47ED22F26443DFF00EA8704 /* USpecialTCell.swift in Sources */,
 				C47ED26726443DFF00EA8704 /* ParallaxHeaderMode.swift in Sources */,
+				C4CEFEE7266CBBE200CAAEBC /* BobSwitchVideoViewController.swift in Sources */,
 				C47ED22D26443DFF00EA8704 /* UUpdateTCell.swift in Sources */,
 				C47ED26226443DFF00EA8704 /* UWebViewController.swift in Sources */,
 				C47ED24326443DFF00EA8704 /* UOtherWorksTCell.swift in Sources */,
@@ -1357,6 +1376,7 @@
 				C47ED23F26443DFF00EA8704 /* UReadCCell.swift in Sources */,
 				C47ED23726443DFF00EA8704 /* Global.swift in Sources */,
 				C47ED26826443DFF00EA8704 /* UIScrollView+ParallaxHeader.swift in Sources */,
+				C4CEFEE9266CD28100CAAEBC /* BobCommonSelectionTableViewCell.swift in Sources */,
 				C47ED26626443DFF00EA8704 /* UEmptyDataSet.swift in Sources */,
 				C47ED22026443DFF00EA8704 /* ArrayExtensions.swift in Sources */,
 				C47ED22426443DFF00EA8704 /* UIDeviceExtension.swift in Sources */,

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UTicketTCell: UBaseTableViewCell {
+class UTicketTCell: BobBaseTableViewCell {
     
     var model: DetailRealtimeModel? {
         didSet {

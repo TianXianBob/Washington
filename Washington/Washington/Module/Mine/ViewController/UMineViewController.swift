@@ -43,7 +43,7 @@ class UMineViewController: BobBaseViewController {
         tw.backgroundColor = UIColor.background
         tw.delegate = self
         tw.dataSource = self
-        tw.register(cellType: UBaseTableViewCell.self)
+        tw.register(cellType: BobBaseTableViewCell.self)
         return tw
     }()
     
@@ -102,7 +102,7 @@ extension UMineViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(for: indexPath, cellType: UBaseTableViewCell.self)
+        let cell = tableView.dequeueReusableCell(for: indexPath, cellType: BobBaseTableViewCell.self)
         cell.accessoryType = .disclosureIndicator
         cell.selectionStyle = .default
         let sectionArray = myArray[indexPath.section]

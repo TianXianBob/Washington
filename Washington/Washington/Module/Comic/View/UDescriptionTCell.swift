@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UDescriptionTCell: UBaseTableViewCell {
+class UDescriptionTCell: BobBaseTableViewCell {
     
     lazy var textView: UITextView = {
         let tw = UITextView()

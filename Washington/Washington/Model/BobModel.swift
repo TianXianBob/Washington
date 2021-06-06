@@ -7,7 +7,7 @@
 
 import HandyJSON
 
-struct ContentListModel: HandyJSON {
+struct ContentListModel: HandyJSON, Equatable {
     var addTime: String?
     var iconName: String?
     var iconUrl: String?

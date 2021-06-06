@@ -9,7 +9,7 @@
 
 import UIKit
 
-class URankTCell: UBaseTableViewCell {
+class URankTCell: BobBaseTableViewCell {
     
     lazy var iconView: UIImageView = {
         let iw = UIImageView()

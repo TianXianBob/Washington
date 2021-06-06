@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UComicTCell: UBaseTableViewCell {
+class UComicTCell: BobBaseTableViewCell {
     
     var spinnerName: String?
 

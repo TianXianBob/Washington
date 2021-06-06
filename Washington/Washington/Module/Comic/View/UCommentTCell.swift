@@ -9,7 +9,7 @@
 import UIKit
 import Foundation
 
-class UCommentTCell: UBaseTableViewCell {
+class UCommentTCell: BobBaseTableViewCell {
 
     private lazy var iconView: UIImageView = {
         let iw = UIImageView()

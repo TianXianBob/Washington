@@ -1,5 +1,5 @@
 //
-//  UBaseTableViewCell.swift
+//  BobBaseTableViewCell.swift
 //  Washington
 //
 //  Created by Bob on 2021/10/24.
@@ -9,7 +9,7 @@
 import UIKit
 import Reusable
 
-class UBaseTableViewCell: UITableViewCell, Reusable {
+class BobBaseTableViewCell: UITableViewCell, Reusable {
 
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)

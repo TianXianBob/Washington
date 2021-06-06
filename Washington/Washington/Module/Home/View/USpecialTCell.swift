@@ -8,7 +8,7 @@
 
 import UIKit
 
-class USpecialTCell: UBaseTableViewCell {
+class USpecialTCell: BobBaseTableViewCell {
     
     private lazy var titleLabel: UILabel = {
         let tl = UILabel()
