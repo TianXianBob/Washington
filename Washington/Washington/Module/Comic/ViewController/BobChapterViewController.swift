@@ -60,6 +60,8 @@ extension BobChapterViewController: UICollectionViewDelegate, UICollectionViewDe
         guard let _ = URL(string: m.playUrl ?? "") else {
             return
         }
+        
+//        UIApplication.changeOrientationTo(landscapeRight: true)
         let vc = BobVideoViewController(model: m, list: dataSource)
         vc.modalPresentationStyle = .fullScreen
         navigationController?.present(vc, animated: true)

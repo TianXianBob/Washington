@@ -82,7 +82,7 @@ class BobComicDetailViewController: BobBaseViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         navigationController?.setNavigationBarHidden(false, animated: true)
-        UIApplication.changeOrientationTo(landscapeRight: false)
+//        UIApplication.changeOrientationTo(landscapeRight: false)
         loadData()
     }
     

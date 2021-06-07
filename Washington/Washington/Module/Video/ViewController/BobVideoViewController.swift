@@ -10,6 +10,7 @@ import UIKit
 import SnapKit
 import SJVideoPlayer
 
+
 class BobVideoViewController: BobBaseViewController {
     
     private let player = SJVideoPlayer()
@@ -53,20 +54,19 @@ class BobVideoViewController: BobBaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         commonInit()
-        UIApplication.changeOrientationTo(landscapeRight: true)
     }
-//
-//    override var shouldAutorotate: Bool {
-//        return true
-//    }
-//
-//    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-//        return .landscape
-//    }
-//
-//    override var preferredInterfaceOrientationForPresentation: UIInterfaceOrientation {
-//        return .landscapeRight
-//    }
+
+    override var shouldAutorotate: Bool {
+        return true
+    }
+
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .landscape
+    }
+
+    override var preferredInterfaceOrientationForPresentation: UIInterfaceOrientation {
+        return .landscapeRight
+    }
     
     override func configNavigationBar() {
         super.configNavigationBar()
@@ -75,25 +75,29 @@ class BobVideoViewController: BobBaseViewController {
     
     private func commonInit() {
         view.backgroundColor = .white
+        _initPlayer()
         _addSwitchItem()
         _addCustomControlLayerToSwitcher()
-        _initPlayer()
  
     }
     
+
+    
     private func _addSwitchItem() {
-        let item = SJEdgeControlButtonItem.init(title: NSAttributedString.sj_UIKitText({ make in
-            make.append("选集")
-            make.textColor(.green)
-            make.font(.systemFont(ofSize: 20, weight: .medium))
-        }), target: self, action: #selector(clickSwitch(_:)), tag: rightSwitchItemIdentify)
-        
-        player.defaultEdgeControlLayer.rightAdapter.add(item)
-        player.defaultEdgeControlLayer.rightAdapter.reload()
+        let item = SJEdgeControlButtonItem.init(image: .init(named: "video_xuanji"), target: self, action: #selector(clickSwitch(_:)), tag: rightSwitchItemIdentify)
+//        let item = SJEdgeControlButtonItem.init(title: NSAttributedString.sj_UIKitText({ make in
+//            make.append("选集")
+//            make.textColor(.green)
+//            make.font(.systemFont(ofSize: 20, weight: .medium))
+//        }), target: self, action: #selector(clickSwitch(_:)), tag: rightSwitchItemIdentify)
+//
+        player.defaultEdgeControlLayer.topAdapter.add(item)
+        player.defaultEdgeControlLayer.topAdapter.reload()
     }
 
     private func _initPlayer() {
         view.addSubview(player.view)
+        print(player.isFullScreen)
         player.rotationManager.isDisabledAutorotation = true
 //        player.defaultEdgeControlLayer.topContainerView.largeContentTitle = "123"
         player.rotationManager.autorotationSupportedOrientations = SJOrientationMaskLandscapeLeft
@@ -147,6 +151,7 @@ class BobVideoViewController: BobBaseViewController {
     @objc func clickSwitch(_ sender: UIButton) {
         player.switcher.switchControlLayer(forIdentifier: rightControllerLayerIdentify)
     }
+
     
     private func _addCustomControlLayerToSwitcher() {
         player.switcher.addControlLayer(forIdentifier: rightControllerLayerIdentify) {[weak self] identify in
@@ -178,4 +183,6 @@ extension BobVideoViewController: BobCustomControlLayerViewControllerDelegate {
     
     
 }
+
+
 

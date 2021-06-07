@@ -51,6 +51,10 @@ class BobBaseViewController: UIViewController {
     @objc func pressBack() {
         navigationController?.popViewController(animated: true)
     }
+    
+    override var shouldAutorotate: Bool {
+        return false
+    }
 }
 
 extension BobBaseViewController {

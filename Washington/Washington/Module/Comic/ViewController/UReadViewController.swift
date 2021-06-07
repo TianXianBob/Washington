@@ -20,7 +20,7 @@ class UReadViewController: BobBaseViewController {
     
     private var isLandscapeRight: Bool! {
         didSet {
-            UIApplication.changeOrientationTo(landscapeRight: isLandscapeRight)
+//            UIApplication.changeOrientationTo(landscapeRight: isLandscapeRight)
             collectionView.reloadData()
         }
     }
