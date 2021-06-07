@@ -63,6 +63,15 @@ class BobSwitchVideoViewController: UIViewController, SJControlLayer {
                 make.top.left.right.bottom.equalToSuperview()
                 make.width.equalTo(min(UScreenWidth, UScreenHeight) / 1.5)
             }
+            
+            if let m = currentModel {
+                DispatchQueue.main.async { [weak self] in
+                    guard let self = self else {return}
+                    let index = self.dataSource.firstIndex(of: m) ?? 0
+                    self.list.scrollToRow(at: IndexPath(item: index, section: 0), at: .middle, animated: true)
+                }
+            }
+            
         }
         
     }

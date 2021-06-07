@@ -95,7 +95,7 @@ class BobVideoViewController: BobBaseViewController {
     private func _initPlayer() {
         view.addSubview(player.view)
         player.rotationManager.isDisabledAutorotation = true
-        player.defaultEdgeControlLayer.topContainerView.largeContentTitle = "123"
+//        player.defaultEdgeControlLayer.topContainerView.largeContentTitle = "123"
         player.rotationManager.autorotationSupportedOrientations = SJOrientationMaskLandscapeLeft
         player.defaultEdgeControlLayer.bottomAdapter.removeItem(forTag: SJEdgeControlLayerBottomItem_Full)
         player.defaultEdgeControlLayer.bottomAdapter.removeItem(forTag: SJEdgeControlLayerBottomItem_Separator)
@@ -106,10 +106,6 @@ class BobVideoViewController: BobBaseViewController {
         player.defaultEdgeControlLayer.topContainerView.backgroundColor = UIColor.black.withAlphaComponent(0.6)
         player.defaultEdgeControlLayer.bottomAdapter.reload()
         player.view.snp.makeConstraints { (make) in
-//                make.left.equalTo(view.safeAreaLayoutGuide.snp.left)
-//                make.right.equalTo(view.safeAreaLayoutGuide.snp.right)
-//                make.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom)
-//                make.top.equalTo(view.safeAreaLayoutGuide.snp.top)
             make.edges.equalToSuperview()
         }
         player.defaultEdgeControlLayer.isEnabledClips = true
