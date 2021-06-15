@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AAE9D5D2678A70C0056C0C8 /* BobRecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE9D5C2678A70C0056C0C8 /* BobRecommendViewController.swift */; };
+		0AAE9D652678A7E70056C0C8 /* BobRecommendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE9D642678A7E70056C0C8 /* BobRecommendListViewController.swift */; };
 		579E19B3917FA1863EB00203 /* Pods_Washington.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74832A70F08E7785AF968B1D /* Pods_Washington.framework */; };
 		C4539B682650E487005B2849 /* BobChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4539B672650E487005B2849 /* BobChapterViewController.swift */; };
 		C4539B6D2650E5FC005B2849 /* BobChapterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4539B6C2650E5FC005B2849 /* BobChapterCollectionViewCell.swift */; };
@@ -207,6 +209,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AAE9D5C2678A70C0056C0C8 /* BobRecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobRecommendViewController.swift; sourceTree = "<group>"; };
+		0AAE9D642678A7E70056C0C8 /* BobRecommendListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobRecommendListViewController.swift; sourceTree = "<group>"; };
 		74832A70F08E7785AF968B1D /* Pods_Washington.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Washington.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E05A47538197E6FD7DFBE8C /* Pods-Washington.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Washington.debug.xcconfig"; path = "Target Support Files/Pods-Washington/Pods-Washington.debug.xcconfig"; sourceTree = "<group>"; };
 		A4BA355EA6C4CF8FD5FBFE36 /* Pods-Washington.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Washington.release.xcconfig"; path = "Target Support Files/Pods-Washington/Pods-Washington.release.xcconfig"; sourceTree = "<group>"; };
@@ -427,6 +431,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AAE9D5A2678A6D00056C0C8 /* Recommend */ = {
+			isa = PBXGroup;
+			children = (
+				0AAE9D5B2678A6DD0056C0C8 /* Controller */,
+			);
+			path = Recommend;
+			sourceTree = "<group>";
+		};
+		0AAE9D5B2678A6DD0056C0C8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0AAE9D5C2678A70C0056C0C8 /* BobRecommendViewController.swift */,
+				0AAE9D642678A7E70056C0C8 /* BobRecommendListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		17225C7032800D2BCDF97F45 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -734,6 +755,7 @@
 		C47ED1BE26443DFF00EA8704 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				0AAE9D5A2678A6D00056C0C8 /* Recommend */,
 				C4539B7B26510D55005B2849 /* Video */,
 				C47ED1BF26443DFF00EA8704 /* Home */,
 				C47ED1D026443DFF00EA8704 /* Global.swift */,
@@ -1336,10 +1358,12 @@
 				C47ED26126443DFF00EA8704 /* UNavigationController.swift in Sources */,
 				C47ED24D26443DFF00EA8704 /* UReadViewController.swift in Sources */,
 				C47ED25026443DFF00EA8704 /* UTopCCell.swift in Sources */,
+				0AAE9D652678A7E70056C0C8 /* BobRecommendListViewController.swift in Sources */,
 				C4539B682650E487005B2849 /* BobChapterViewController.swift in Sources */,
 				C47ED26A26443DFF00EA8704 /* UNoticeBar.swift in Sources */,
 				C47ED23426443DFF00EA8704 /* BobSpecialViewController.swift in Sources */,
 				C47ED24226443DFF00EA8704 /* UReadTopBar.swift in Sources */,
+				0AAE9D5D2678A70C0056C0C8 /* BobRecommendViewController.swift in Sources */,
 				C47ED22A26443DFF00EA8704 /* URankTCell.swift in Sources */,
 				C47ED26426443DFF00EA8704 /* UCollectionViewSectionBackgroundLayout.swift in Sources */,
 				C47ED21B26443DFF00EA8704 /* UAPI.swift in Sources */,

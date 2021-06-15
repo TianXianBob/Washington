@@ -84,7 +84,7 @@ class BobVideoViewController: BobBaseViewController {
 
     
     private func _addSwitchItem() {
-        let item = SJEdgeControlButtonItem.init(image: .init(named: "video_xuanji"), target: self, action: #selector(clickSwitch(_:)), tag: rightSwitchItemIdentify)
+        let item = SJEdgeControlButtonItem.init(image: UIImage.init(named: "video_xuanji"), target: self, action: #selector(clickSwitch(_:)), tag: rightSwitchItemIdentify)
 //        let item = SJEdgeControlButtonItem.init(title: NSAttributedString.sj_UIKitText({ make in
 //            make.append("选集")
 //            make.textColor(.green)

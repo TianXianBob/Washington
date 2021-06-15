@@ -16,34 +16,42 @@ class UTabBarController: UITabBarController {
         tabBar.isTranslucent = false
         
         /// 首页
-        let onePageVC = BobHomeViewController(titles: ["推荐",
-                                                     ],
-                                            vcs: [BobBoutiqueListViewController()],
-                                            pageStyle: .navgationBarSegment)
-        addChildViewController(onePageVC,
-                               title: "首页",
+        let classVC = BobRecommendViewController(titles: ["推荐",
+        ],
+        vcs: [BobRecommendListViewController()],
+        pageStyle: .navgationBarSegment)
+        addChildViewController(classVC,
+                               title: "推荐",
                                image: UIImage(named: "tab_home"),
-                               selectedImage: UIImage(named: "tab_home_S"))
+                               selectedImage: UIImage(named: "tab_home"))
         
         
         /// 分类
-        let classVC = UCateListViewController()
-        addChildViewController(classVC,
+        let onePageVC = BobHomeViewController(titles: ["分类",
+        ],
+        vcs: [BobBoutiqueListViewController()],
+        pageStyle: .navgationBarSegment)
+        addChildViewController(onePageVC,
                                title: "分类",
                                image: UIImage(named: "tab_class"),
                                selectedImage: UIImage(named: "tab_class_S"))
+        //        let classVC = UCateListViewController()
+        //        addChildViewController(classVC,
+        //                               title: "分类",
+        //                               image: UIImage(named: "tab_class"),
+        //                               selectedImage: UIImage(named: "tab_class_S"))
         
         
         /// 书架
-        let bookVC = UBookViewController(titles: ["收藏",
-                                                  "书单",
+        let feetVC = UBookViewController(titles: ["收藏",
+                                                  "历史",
                                                   "下载"],
                                          vcs: [UCollectListViewController(),
                                                UDocumentListViewController(),
                                                UDownloadListViewController()],
                                          pageStyle: .navgationBarSegment)
-        addChildViewController(bookVC,
-                               title: "书架",
+        addChildViewController(feetVC,
+                               title: "足迹",
                                image: UIImage(named: "tab_book"),
                                selectedImage: UIImage(named: "tab_book_S"))
         
