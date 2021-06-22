@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UComicHeadCCell: UBaseCollectionViewCell {
+class UComicHeadCCell: BobBaseCollectionViewCell {
     
     lazy var titleLabel: UILabel = {
         let tl = UILabel()

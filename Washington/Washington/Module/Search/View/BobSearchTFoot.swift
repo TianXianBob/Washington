@@ -1,5 +1,5 @@
 //
-//  USearchTFoot.swift
+//  BobSearchTFoot.swift
 //  Washington
 //
 //  Created by Bob on 2021/11/10.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class USearchCCell: UBaseCollectionViewCell {
+class BobSearchCCell: BobBaseCollectionViewCell {
     lazy var titleLabel: UILabel = {
         let tl = UILabel()
         tl.textAlignment = .center
@@ -25,17 +25,17 @@ class USearchCCell: UBaseCollectionViewCell {
     }
 }
 
-typealias USearchTFootDidSelectIndexClosure = (_ index: Int, _ model: SearchItemModel) -> Void
+typealias BobSearchTFootDidSelectIndexClosure = (_ index: Int, _ model: ContentListModel) -> Void
 
-protocol USearchTFootDelegate: class {
-    func searchTFoot(_ searchTFoot: USearchTFoot, didSelectItemAt index: Int, _ model: SearchItemModel)
+protocol BobSearchTFootDelegate: class {
+    func searchTFoot(_ searchTFoot: BobSearchTFoot, didSelectItemAt index: Int, _ model: ContentListModel)
 }
 
-class USearchTFoot: UBaseTableViewHeaderFooterView {
+class BobSearchTFoot: BobBaseTableViewHeaderFooterView {
 
-    weak var delegate: USearchTFootDelegate?
+    weak var delegate: BobSearchTFootDelegate?
     
-    private var didSelectIndexClosure: USearchTFootDidSelectIndexClosure?
+    private var didSelectIndexClosure: BobSearchTFootDidSelectIndexClosure?
     
     private lazy var collectionView: UICollectionView = {
         let lt = UCollectionViewAlignedLayout()
@@ -48,11 +48,11 @@ class USearchTFoot: UBaseTableViewHeaderFooterView {
         cw.backgroundColor = UIColor.white
         cw.dataSource = self
         cw.delegate = self
-        cw.register(cellType: USearchCCell.self)
+        cw.register(cellType: BobSearchCCell.self)
         return cw
     }()
     
-    var data: [SearchItemModel] = [] {
+    var data: [ContentListModel] = [] {
         didSet {
             collectionView.reloadData()
         }
@@ -66,16 +66,16 @@ class USearchTFoot: UBaseTableViewHeaderFooterView {
 
 }
 
-extension USearchTFoot: UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+extension BobSearchTFoot: UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return data.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(for: indexPath, cellType: USearchCCell.self)
+        let cell = collectionView.dequeueReusableCell(for: indexPath, cellType: BobSearchCCell.self)
         cell.layer.cornerRadius = cell.bounds.height * 0.5
-        cell.titleLabel.text = data[indexPath.row].name
+//        cell.titleLabel.text = data[indexPath.row].name
         return cell
     }
     
@@ -86,7 +86,7 @@ extension USearchTFoot: UICollectionViewDataSource, UICollectionViewDelegateFlow
         closure(indexPath.row, data[indexPath.row])
     }
     
-    func didSelectIndexClosure(_ closure: @escaping USearchTFootDidSelectIndexClosure) {
+    func didSelectIndexClosure(_ closure: @escaping BobSearchTFootDidSelectIndexClosure) {
         didSelectIndexClosure = closure
     }
 }

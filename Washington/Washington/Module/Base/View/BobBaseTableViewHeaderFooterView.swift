@@ -1,5 +1,5 @@
 //
-//  UBaseTableViewHeaderFooterView.swift
+//  BobBaseTableViewHeaderFooterView.swift
 //  Washington
 //
 //  Created by Bob on 2021/11/10.
@@ -9,7 +9,7 @@
 import UIKit
 import Reusable
 
-class UBaseTableViewHeaderFooterView: UITableViewHeaderFooterView, Reusable {
+class BobBaseTableViewHeaderFooterView: UITableViewHeaderFooterView, Reusable {
 
     override init(reuseIdentifier: String?) {
         super.init(reuseIdentifier: reuseIdentifier)

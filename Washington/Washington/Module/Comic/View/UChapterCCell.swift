@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UChapterCCell: UBaseCollectionViewCell {
+class UChapterCCell: BobBaseCollectionViewCell {
     lazy var nameLabel: UILabel = {
         let nl = UILabel()
         nl.font = UIFont.systemFont(ofSize: 16)

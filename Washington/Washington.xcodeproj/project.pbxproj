@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0AAE9D5D2678A70C0056C0C8 /* BobRecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE9D5C2678A70C0056C0C8 /* BobRecommendViewController.swift */; };
 		0AAE9D652678A7E70056C0C8 /* BobRecommendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE9D642678A7E70056C0C8 /* BobRecommendListViewController.swift */; };
+		0AB9239C2680BA7B008349BE /* BobVideoFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB9239B2680BA7B008349BE /* BobVideoFileManager.swift */; };
 		579E19B3917FA1863EB00203 /* Pods_Washington.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74832A70F08E7785AF968B1D /* Pods_Washington.framework */; };
 		C4539B682650E487005B2849 /* BobChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4539B672650E487005B2849 /* BobChapterViewController.swift */; };
 		C4539B6D2650E5FC005B2849 /* BobChapterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4539B6C2650E5FC005B2849 /* BobChapterCollectionViewCell.swift */; };
@@ -123,8 +124,8 @@
 		C47ED23626443DFF00EA8704 /* BobRankListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1CF26443DFF00EA8704 /* BobRankListViewController.swift */; };
 		C47ED23726443DFF00EA8704 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1D026443DFF00EA8704 /* Global.swift */; };
 		C47ED23826443DFF00EA8704 /* USearchTHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1D326443DFF00EA8704 /* USearchTHead.swift */; };
-		C47ED23926443DFF00EA8704 /* USearchTFoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1D426443DFF00EA8704 /* USearchTFoot.swift */; };
-		C47ED23A26443DFF00EA8704 /* USearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1D626443DFF00EA8704 /* USearchViewController.swift */; };
+		C47ED23926443DFF00EA8704 /* BobSearchTFoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1D426443DFF00EA8704 /* BobSearchTFoot.swift */; };
+		C47ED23A26443DFF00EA8704 /* BobSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1D626443DFF00EA8704 /* BobSearchViewController.swift */; };
 		C47ED23B26443DFF00EA8704 /* UOtherWorksCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1D926443DFF00EA8704 /* UOtherWorksCCell.swift */; };
 		C47ED23C26443DFF00EA8704 /* UChapterCHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1DA26443DFF00EA8704 /* UChapterCHead.swift */; };
 		C47ED23D26443DFF00EA8704 /* UComicHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1DB26443DFF00EA8704 /* UComicHead.swift */; };
@@ -156,8 +157,8 @@
 		C47ED25726443DFF00EA8704 /* UDocumentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1FE26443DFF00EA8704 /* UDocumentListViewController.swift */; };
 		C47ED25826443DFF00EA8704 /* UDownloadListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1FF26443DFF00EA8704 /* UDownloadListViewController.swift */; };
 		C47ED25926443DFF00EA8704 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED20026443DFF00EA8704 /* AppDelegate.swift */; };
-		C47ED25A26443DFF00EA8704 /* UBaseTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED20326443DFF00EA8704 /* UBaseTableViewHeaderFooterView.swift */; };
-		C47ED25B26443DFF00EA8704 /* UBaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED20426443DFF00EA8704 /* UBaseCollectionViewCell.swift */; };
+		C47ED25A26443DFF00EA8704 /* BobBaseTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED20326443DFF00EA8704 /* BobBaseTableViewHeaderFooterView.swift */; };
+		C47ED25B26443DFF00EA8704 /* BobBaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED20426443DFF00EA8704 /* BobBaseCollectionViewCell.swift */; };
 		C47ED25C26443DFF00EA8704 /* BobBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED20526443DFF00EA8704 /* BobBaseTableViewCell.swift */; };
 		C47ED25D26443DFF00EA8704 /* BobBaseCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED20626443DFF00EA8704 /* BobBaseCollectionReusableView.swift */; };
 		C47ED25E26443DFF00EA8704 /* BobPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED20826443DFF00EA8704 /* BobPageViewController.swift */; };
@@ -211,6 +212,7 @@
 /* Begin PBXFileReference section */
 		0AAE9D5C2678A70C0056C0C8 /* BobRecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobRecommendViewController.swift; sourceTree = "<group>"; };
 		0AAE9D642678A7E70056C0C8 /* BobRecommendListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobRecommendListViewController.swift; sourceTree = "<group>"; };
+		0AB9239B2680BA7B008349BE /* BobVideoFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobVideoFileManager.swift; sourceTree = "<group>"; };
 		74832A70F08E7785AF968B1D /* Pods_Washington.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Washington.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E05A47538197E6FD7DFBE8C /* Pods-Washington.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Washington.debug.xcconfig"; path = "Target Support Files/Pods-Washington/Pods-Washington.debug.xcconfig"; sourceTree = "<group>"; };
 		A4BA355EA6C4CF8FD5FBFE36 /* Pods-Washington.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Washington.release.xcconfig"; path = "Target Support Files/Pods-Washington/Pods-Washington.release.xcconfig"; sourceTree = "<group>"; };
@@ -333,8 +335,8 @@
 		C47ED1CF26443DFF00EA8704 /* BobRankListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BobRankListViewController.swift; sourceTree = "<group>"; };
 		C47ED1D026443DFF00EA8704 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		C47ED1D326443DFF00EA8704 /* USearchTHead.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = USearchTHead.swift; sourceTree = "<group>"; };
-		C47ED1D426443DFF00EA8704 /* USearchTFoot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = USearchTFoot.swift; sourceTree = "<group>"; };
-		C47ED1D626443DFF00EA8704 /* USearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = USearchViewController.swift; sourceTree = "<group>"; };
+		C47ED1D426443DFF00EA8704 /* BobSearchTFoot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BobSearchTFoot.swift; sourceTree = "<group>"; };
+		C47ED1D626443DFF00EA8704 /* BobSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BobSearchViewController.swift; sourceTree = "<group>"; };
 		C47ED1D926443DFF00EA8704 /* UOtherWorksCCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UOtherWorksCCell.swift; sourceTree = "<group>"; };
 		C47ED1DA26443DFF00EA8704 /* UChapterCHead.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UChapterCHead.swift; sourceTree = "<group>"; };
 		C47ED1DB26443DFF00EA8704 /* UComicHead.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UComicHead.swift; sourceTree = "<group>"; };
@@ -366,8 +368,8 @@
 		C47ED1FE26443DFF00EA8704 /* UDocumentListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UDocumentListViewController.swift; sourceTree = "<group>"; };
 		C47ED1FF26443DFF00EA8704 /* UDownloadListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UDownloadListViewController.swift; sourceTree = "<group>"; };
 		C47ED20026443DFF00EA8704 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C47ED20326443DFF00EA8704 /* UBaseTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UBaseTableViewHeaderFooterView.swift; sourceTree = "<group>"; };
-		C47ED20426443DFF00EA8704 /* UBaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UBaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		C47ED20326443DFF00EA8704 /* BobBaseTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BobBaseTableViewHeaderFooterView.swift; sourceTree = "<group>"; };
+		C47ED20426443DFF00EA8704 /* BobBaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BobBaseCollectionViewCell.swift; sourceTree = "<group>"; };
 		C47ED20526443DFF00EA8704 /* BobBaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BobBaseTableViewCell.swift; sourceTree = "<group>"; };
 		C47ED20626443DFF00EA8704 /* BobBaseCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BobBaseCollectionReusableView.swift; sourceTree = "<group>"; };
 		C47ED20826443DFF00EA8704 /* BobPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BobPageViewController.swift; sourceTree = "<group>"; };
@@ -715,6 +717,7 @@
 				C4909863264FBB8000C9AD9F /* 古诗词.json */,
 				C4909876264FBC0500C9AD9F /* 儿歌.json */,
 				C490987B264FBC3200C9AD9F /* 故事集.json */,
+				0AB9239B2680BA7B008349BE /* BobVideoFileManager.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -821,7 +824,7 @@
 			isa = PBXGroup;
 			children = (
 				C47ED1D326443DFF00EA8704 /* USearchTHead.swift */,
-				C47ED1D426443DFF00EA8704 /* USearchTFoot.swift */,
+				C47ED1D426443DFF00EA8704 /* BobSearchTFoot.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -829,7 +832,7 @@
 		C47ED1D526443DFF00EA8704 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				C47ED1D626443DFF00EA8704 /* USearchViewController.swift */,
+				C47ED1D626443DFF00EA8704 /* BobSearchViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -963,8 +966,8 @@
 		C47ED20226443DFF00EA8704 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C47ED20326443DFF00EA8704 /* UBaseTableViewHeaderFooterView.swift */,
-				C47ED20426443DFF00EA8704 /* UBaseCollectionViewCell.swift */,
+				C47ED20326443DFF00EA8704 /* BobBaseTableViewHeaderFooterView.swift */,
+				C47ED20426443DFF00EA8704 /* BobBaseCollectionViewCell.swift */,
 				C47ED20526443DFF00EA8704 /* BobBaseTableViewCell.swift */,
 				C47ED20626443DFF00EA8704 /* BobBaseCollectionReusableView.swift */,
 			);
@@ -1352,9 +1355,10 @@
 				C47ED25526443DFF00EA8704 /* UCollectListViewController.swift in Sources */,
 				C47ED23226443DFF00EA8704 /* BobUpdateListViewController.swift in Sources */,
 				C47ED26926443DFF00EA8704 /* ParallaxHeader.swift in Sources */,
-				C47ED25A26443DFF00EA8704 /* UBaseTableViewHeaderFooterView.swift in Sources */,
+				C47ED25A26443DFF00EA8704 /* BobBaseTableViewHeaderFooterView.swift in Sources */,
 				C4BD73E5266C9D9C00B0C429 /* BobVideoTableViewCell.swift in Sources */,
 				C47ED22226443DFF00EA8704 /* UIViewExtension.swift in Sources */,
+				0AB9239C2680BA7B008349BE /* BobVideoFileManager.swift in Sources */,
 				C47ED26126443DFF00EA8704 /* UNavigationController.swift in Sources */,
 				C47ED24D26443DFF00EA8704 /* UReadViewController.swift in Sources */,
 				C47ED25026443DFF00EA8704 /* UTopCCell.swift in Sources */,
@@ -1371,14 +1375,14 @@
 				C4DFD4B8264BFE53001FB46B /* BobBoutiqueListViewModel.swift in Sources */,
 				C47ED23026443DFF00EA8704 /* BobSubscibeListViewController.swift in Sources */,
 				C47ED22C26443DFF00EA8704 /* UComicCCell.swift in Sources */,
-				C47ED23926443DFF00EA8704 /* USearchTFoot.swift in Sources */,
+				C47ED23926443DFF00EA8704 /* BobSearchTFoot.swift in Sources */,
 				C4966775266226DC00D3A74E /* TraverseSubviews.m in Sources */,
 				C47ED23626443DFF00EA8704 /* BobRankListViewController.swift in Sources */,
 				C4539B7E26510D8E005B2849 /* BobVideoViewController.swift in Sources */,
 				C47ED25326443DFF00EA8704 /* USettingViewController.swift in Sources */,
 				C47ED26526443DFF00EA8704 /* URefresh.swift in Sources */,
 				C47ED22726443DFF00EA8704 /* StringExtension.swift in Sources */,
-				C47ED25B26443DFF00EA8704 /* UBaseCollectionViewCell.swift in Sources */,
+				C47ED25B26443DFF00EA8704 /* BobBaseCollectionViewCell.swift in Sources */,
 				C496677B2662280D00D3A74E /* ViewNode.m in Sources */,
 				C47ED24626443DFF00EA8704 /* UReadBottomBar.swift in Sources */,
 				C47ED23826443DFF00EA8704 /* USearchTHead.swift in Sources */,
@@ -1424,7 +1428,7 @@
 				C47ED24126443DFF00EA8704 /* UCommentTCell.swift in Sources */,
 				C47ED24B26443DFF00EA8704 /* UChapterViewController.swift in Sources */,
 				C47ED25D26443DFF00EA8704 /* BobBaseCollectionReusableView.swift in Sources */,
-				C47ED23A26443DFF00EA8704 /* USearchViewController.swift in Sources */,
+				C47ED23A26443DFF00EA8704 /* BobSearchViewController.swift in Sources */,
 				C47ED25926443DFF00EA8704 /* AppDelegate.swift in Sources */,
 				C47ED24E26443DFF00EA8704 /* UCommentViewController.swift in Sources */,
 				C47ED24826443DFF00EA8704 /* BobComicDetailViewController.swift in Sources */,

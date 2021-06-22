@@ -11,7 +11,7 @@ import Kingfisher
 
 extension UIImageView: Placeholder {}
 
-class UReadCCell: UBaseCollectionViewCell {
+class UReadCCell: BobBaseCollectionViewCell {
     
     lazy var imageView: UIImageView = {
         let iw = UIImageView()

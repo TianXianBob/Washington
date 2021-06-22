@@ -14,7 +14,7 @@ enum UComicCCellStyle {
     case withTitieAndDesc
 }
 
-class UComicCCell: UBaseCollectionViewCell {
+class UComicCCell: BobBaseCollectionViewCell {
     
     private lazy var iconView: UIImageView = {
         let iw = UIImageView()

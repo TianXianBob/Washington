@@ -21,7 +21,7 @@ class BobRecommendViewController: BobPageViewController {
     }
     
     @objc private func selectAction() {
-        navigationController?.pushViewController(USearchViewController(), animated: true)
+        navigationController?.pushViewController(BobSearchViewController(), animated: true)
     }
 
 }

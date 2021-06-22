@@ -1,5 +1,5 @@
 //
-//  USearchViewController.swift
+//  BobSearchViewController.swift
 //  Washington
 //
 //  Created by Bob on 2021/11/10.
@@ -9,11 +9,11 @@
 import UIKit
 import Moya
 
-class USearchViewController: BobBaseViewController {
+class BobSearchViewController: BobBaseViewController {
     
-    private var currentRequest: Cancellable?
+//    private var currentRequest: Cancellable?
     
-    private var hotItems: [SearchItemModel]?
+    private var hotItems: [ContentListModel]?
     
     private var relative: [SearchItemModel]?
     
@@ -29,7 +29,7 @@ class USearchViewController: BobBaseViewController {
         sr.textColor = UIColor.gray
         sr.tintColor = UIColor.darkGray
         sr.font = UIFont.systemFont(ofSize: 15)
-        sr.placeholder = "输入漫画名称/作者"
+        sr.placeholder = "输入视频名称/集合"
         sr.layer.cornerRadius = 15
         sr.leftView = UIView(frame: CGRect(x: 0, y: 0, width: 15, height: 15))
         sr.leftViewMode = .always
@@ -47,7 +47,7 @@ class USearchViewController: BobBaseViewController {
         tw.dataSource = self
         tw.register(headerFooterViewType: USearchTHead.self)
         tw.register(cellType: BobBaseTableViewCell.self)
-        tw.register(headerFooterViewType: USearchTFoot.self)
+        tw.register(headerFooterViewType: BobSearchTFoot.self)
         return tw
     }()
     
@@ -83,10 +83,12 @@ class USearchViewController: BobBaseViewController {
         historyTableView.isHidden = false
         searchTableView.isHidden = true
         resultTableView.isHidden = true
-        ApiLoadingProvider.request(UApi.searchHot, model: HotItemsModel.self) { (returnData) in
-            self.hotItems = returnData?.hotItems
-            self.historyTableView.reloadData()
-        }
+        
+        
+//        ApiLoadingProvider.request(UApi.searchHot, model: HotItemsModel.self) { (returnData) in
+//            self.hotItems = returnData?.hotItems
+//            self.historyTableView.reloadData()
+//        }
     }
     
     private func searchRelative(_ text: String) {
@@ -94,11 +96,13 @@ class USearchViewController: BobBaseViewController {
             historyTableView.isHidden = true
             searchTableView.isHidden = false
             resultTableView.isHidden = true
-            currentRequest?.cancel()
-            currentRequest = ApiProvider.request(UApi.searchRelative(inputText: text), model: [SearchItemModel].self) { (returnData) in
-                self.relative = returnData
-                self.searchTableView.reloadData()
-            }
+//            currentRequest?.cancel()
+//            currentRequest = ApiProvider.request(UApi.searchRelative(inputText: text), model: [SearchItemModel].self) { (returnData) in
+//                self.relative = returnData
+//                self.searchTableView.reloadData()
+//            }
+            // 文字输入搜索
+            
         } else {
             historyTableView.isHidden = false
             searchTableView.isHidden = true
@@ -167,7 +171,7 @@ class USearchViewController: BobBaseViewController {
 
 }
 
-extension USearchViewController: UITextFieldDelegate {
+extension BobSearchViewController: UITextFieldDelegate {
     
     @objc func textFiledTextDidChange(noti: Notification) {
         guard let textField = noti.object as? UITextField,
@@ -180,7 +184,7 @@ extension USearchViewController: UITextFieldDelegate {
     }
 }
 
-extension USearchViewController: UITableViewDelegate, UITableViewDataSource {
+extension BobSearchViewController: UITableViewDelegate, UITableViewDataSource {
     
     func numberOfSections(in tableView: UITableView) -> Int {
         if tableView == historyTableView {
@@ -293,10 +297,10 @@ extension USearchViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
         if tableView == historyTableView && section == 1 {
-            let foot = tableView.dequeueReusableHeaderFooterView(USearchTFoot.self)
+            let foot = tableView.dequeueReusableHeaderFooterView(BobSearchTFoot.self)
             foot?.data = hotItems ?? []
             foot?.didSelectIndexClosure{ [weak self] (index, model) in
-                let vc = BobComicDetailViewController(comicid: model.comic_id)
+                let vc = BobComicDetailViewController(comicid: model.sourceId)
                 self?.navigationController?.pushViewController(vc, animated: true)
             }
             return foot
