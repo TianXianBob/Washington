@@ -32,6 +32,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = UTabBarController()
         window?.makeKeyAndVisible()
         
+        DispatchQueue.global().async {
+            BobVideoFileManager.shared.loadFile()
+        }
         return true
     }
     
