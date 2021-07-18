@@ -312,16 +312,14 @@ extension BobSearchViewController: UITableViewDelegate, UITableViewDataSource {
             head?.titleLabel.text = section == 0  ? "看看你都搜过什么" : "大家都在搜"
             head?.moreButton.setImage(section == 0 ? UIImage(named: "search_history_delete") : UIImage(named: "search_keyword_refresh"), for: .normal)
             head?.moreButton.isHidden = section == 0 ? (searchHistory.count == 0) : true
-//            head?.moreActionClosure { [weak self] in
-//                if section == 0 {
-//                    self?.searchHistory?.removeAll()
-//                    self?.historyTableView.reloadData()
-//                    UserDefaults.standard.removeObject(forKey: String.searchHistoryKey)
-//                    UserDefaults.standard.synchronize()
-//                } else {
-//                    self?.loadHistory()
-//                }
-//            }
+            head?.moreActionClosure { [weak self] in
+                if section == 0 {
+                    self?.searchHistory?.removeAll()
+                    self?.historyTableView.reloadData()
+                    UserDefaults.standard.removeObject(forKey: String.searchHistoryKey)
+                    UserDefaults.standard.synchronize()
+                } 
+            }
             return head
         } else if tableView == searchTableView {
             let head = tableView.dequeueReusableHeaderFooterView(USearchTHead.self)
