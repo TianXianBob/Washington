@@ -143,21 +143,27 @@ class BobSearchViewController: BobBaseViewController {
 //            }
             
             
-            let defaults = UserDefaults.standard
-            var histoary = defaults.value(forKey: String.searchHistoryKey) as? [String] ?? [String]()
-            histoary.removeAll([text])
-            histoary.insertFirst(text)
-            
-            searchHistory = histoary
-            historyTableView.reloadData()
-            
-            defaults.set(searchHistory, forKey: String.searchHistoryKey)
-            defaults.synchronize()
         } else {
             historyTableView.isHidden = false
             searchTableView.isHidden = true
             resultTableView.isHidden = true
         }
+    }
+    
+    private func updateLocalData(_ text: String) {
+        if text.count == 0 {
+            return
+        }
+        let defaults = UserDefaults.standard
+        var histoary = defaults.value(forKey: String.searchHistoryKey) as? [String] ?? [String]()
+        histoary.removeAll([text])
+        histoary.insertFirst(text)
+        
+        searchHistory = histoary
+        historyTableView.reloadData()
+        
+        defaults.set(searchHistory, forKey: String.searchHistoryKey)
+        defaults.synchronize()
     }
     
     private func _search(_ text:String, _ callback: ([ComicModel]) -> ()) {
@@ -288,7 +294,10 @@ extension BobSearchViewController: UITableViewDelegate, UITableViewDataSource {
                 let m = r[indexPath.row]
                 let vc = BobComicDetailViewController(comicid: m.comicId, comic: m)
                 navigationController?.pushViewController(vc, animated: true)
+                updateLocalData(m.title ?? "")
             }
+            
+            
         } else if tableView == resultTableView {
             let m = comics[indexPath.row]
             let vc = BobComicDetailViewController(comicid: m.comicId, comic: m)
@@ -318,7 +327,7 @@ extension BobSearchViewController: UITableViewDelegate, UITableViewDataSource {
                     self?.historyTableView.reloadData()
                     UserDefaults.standard.removeObject(forKey: String.searchHistoryKey)
                     UserDefaults.standard.synchronize()
-                } 
+                }
             }
             return head
         } else if tableView == searchTableView {
