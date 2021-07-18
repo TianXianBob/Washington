@@ -23,7 +23,7 @@ class UTabBarController: UITabBarController {
         addChildViewController(classVC,
                                title: "推荐",
                                image: UIImage(named: "tab_home"),
-                               selectedImage: UIImage(named: "tab_home"))
+                               selectedImage: UIImage(named: "tab_home_S"))
         
         
         /// 分类

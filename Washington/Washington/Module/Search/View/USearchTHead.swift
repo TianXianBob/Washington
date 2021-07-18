@@ -14,7 +14,7 @@ protocol USearchTHeadDelegate: class {
     func searchTHead(_ searchTHead: USearchTHead, moreAction button: UIButton)
 }
 
-class USearchTHead: UBaseTableViewHeaderFooterView {
+class USearchTHead: BobBaseTableViewHeaderFooterView {
 
     weak var delegate: USearchTHeadDelegate?
     

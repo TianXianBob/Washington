@@ -1,5 +1,5 @@
 //
-//  USearchTFoot.swift
+//  BobSearchTFoot.swift
 //  Washington
 //
 //  Created by Bob on 2021/11/10.
@@ -27,11 +27,11 @@ class USearchCCell: UBaseCollectionViewCell {
 
 typealias USearchTFootDidSelectIndexClosure = (_ index: Int, _ model: SearchItemModel) -> Void
 
-protocol USearchTFootDelegate: class {
-    func searchTFoot(_ searchTFoot: USearchTFoot, didSelectItemAt index: Int, _ model: SearchItemModel)
+protocol USearchTFootDelegate: AnyObject {
+    func searchTFoot(_ searchTFoot: BobSearchTFoot, didSelectItemAt index: Int, _ model: SearchItemModel)
 }
 
-class USearchTFoot: UBaseTableViewHeaderFooterView {
+class BobSearchTFoot: BobBaseTableViewHeaderFooterView {
 
     weak var delegate: USearchTFootDelegate?
     
@@ -66,7 +66,7 @@ class USearchTFoot: UBaseTableViewHeaderFooterView {
 
 }
 
-extension USearchTFoot: UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+extension BobSearchTFoot: UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return data.count

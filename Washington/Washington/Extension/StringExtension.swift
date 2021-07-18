@@ -18,5 +18,20 @@ extension String {
             return self
         }
     }
+    
+    func contains(find: String) -> Bool{
+        let mFind = find.trimmingCharacters(in: .whitespacesAndNewlines)
+        let result = self.range(of: mFind) != nil
+        
+        return result
+    }
+    
+    func containsIgnoringCase(find: String) -> Bool{
+        let mFind = find.trimmingCharacters(in: .whitespacesAndNewlines)
+        return self.range(of: mFind, options: .caseInsensitive) != nil
+        
+    }
+    
+    
 }
 

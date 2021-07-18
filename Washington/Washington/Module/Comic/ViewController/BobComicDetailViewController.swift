@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol UComicViewWillEndDraggingDelegate: class {
+protocol UComicViewWillEndDraggingDelegate: AnyObject {
     func comicWillEndDragging(_ scrollView: UIScrollView)
 }
 

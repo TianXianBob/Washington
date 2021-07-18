@@ -65,7 +65,7 @@ class UCateListViewController: BobBaseViewController {
     }
     
     @objc private func searchAction() {
-        navigationController?.pushViewController(USearchViewController(), animated: true)
+        navigationController?.pushViewController(BobSearchViewController(), animated: true)
     }
     
     override func configUI() {

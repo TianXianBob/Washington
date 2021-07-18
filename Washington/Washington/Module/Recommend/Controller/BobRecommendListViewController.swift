@@ -9,21 +9,54 @@ import UIKit
 
 class BobRecommendListViewController: BobBaseViewController {
 
+    private let tableView = UITableView(frame: .zero, style: .grouped)
+    private let vm = BobRecommendListViewModel()
+    private let identify = "BobRecommendVideoTableViewCell"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        setup()
     }
     
+}
 
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+extension BobRecommendListViewController {
+    private func setup() {
+        view.backgroundColor = .white
+        
+        do {
+            tableView.separatorStyle = .none
+            tableView.backgroundColor = .white
+            tableView.delegate = self
+            tableView.dataSource = self
+            tableView.register(BobRecommendVideoTableViewCell.self, forCellReuseIdentifier: identify)
+            view.addSubview(tableView)
+            tableView.snp.makeConstraints { make in
+                make.edges.equalToSuperview()
+            }
+        }
     }
-    */
+}
 
+extension BobRecommendListViewController: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return vm.models.count
+    }
+    
+    
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: identify) as? BobRecommendVideoTableViewCell else {
+            return .init()
+        }
+        
+        return cell
+    }
+    
+    
+}
+
+extension BobRecommendListViewController: UITableViewDelegate {
+    
 }

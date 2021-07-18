@@ -93,6 +93,9 @@
 		C4539D9B2655599B005B2849 /* daomeixiong2_cartoon.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539D9A2655599B005B2849 /* daomeixiong2_cartoon.json */; };
 		C4539DA326555A4B005B2849 /* green_tonghua_story.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539DA226555A4B005B2849 /* green_tonghua_story.json */; };
 		C4539DA826555A86005B2849 /* 1001_shenghua_story.json in Resources */ = {isa = PBXBuildFile; fileRef = C4539DA726555A86005B2849 /* 1001_shenghua_story.json */; };
+		C4622DFA267F95D300E4ACDA /* BobRecommendListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4622DF9267F95D300E4ACDA /* BobRecommendListViewModel.swift */; };
+		C4622DFD267F97B900E4ACDA /* BobRecommendVideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4622DFC267F97B900E4ACDA /* BobRecommendVideoTableViewCell.swift */; };
+		C4622E00267F97F300E4ACDA /* BobRecommendVideoListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4622DFF267F97F300E4ACDA /* BobRecommendVideoListModel.swift */; };
 		C47ECBA52644342600EA8704 /* WashingtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ECBA42644342600EA8704 /* WashingtonTests.swift */; };
 		C47ECBB02644342600EA8704 /* WashingtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ECBAF2644342600EA8704 /* WashingtonUITests.swift */; };
 		C47ED21B26443DFF00EA8704 /* UAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1AC26443DFF00EA8704 /* UAPI.swift */; };
@@ -123,8 +126,8 @@
 		C47ED23626443DFF00EA8704 /* BobRankListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1CF26443DFF00EA8704 /* BobRankListViewController.swift */; };
 		C47ED23726443DFF00EA8704 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1D026443DFF00EA8704 /* Global.swift */; };
 		C47ED23826443DFF00EA8704 /* USearchTHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1D326443DFF00EA8704 /* USearchTHead.swift */; };
-		C47ED23926443DFF00EA8704 /* USearchTFoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1D426443DFF00EA8704 /* USearchTFoot.swift */; };
-		C47ED23A26443DFF00EA8704 /* USearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1D626443DFF00EA8704 /* USearchViewController.swift */; };
+		C47ED23926443DFF00EA8704 /* BobSearchTFoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1D426443DFF00EA8704 /* BobSearchTFoot.swift */; };
+		C47ED23A26443DFF00EA8704 /* BobSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1D626443DFF00EA8704 /* BobSearchViewController.swift */; };
 		C47ED23B26443DFF00EA8704 /* UOtherWorksCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1D926443DFF00EA8704 /* UOtherWorksCCell.swift */; };
 		C47ED23C26443DFF00EA8704 /* UChapterCHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1DA26443DFF00EA8704 /* UChapterCHead.swift */; };
 		C47ED23D26443DFF00EA8704 /* UComicHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1DB26443DFF00EA8704 /* UComicHead.swift */; };
@@ -156,7 +159,7 @@
 		C47ED25726443DFF00EA8704 /* UDocumentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1FE26443DFF00EA8704 /* UDocumentListViewController.swift */; };
 		C47ED25826443DFF00EA8704 /* UDownloadListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1FF26443DFF00EA8704 /* UDownloadListViewController.swift */; };
 		C47ED25926443DFF00EA8704 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED20026443DFF00EA8704 /* AppDelegate.swift */; };
-		C47ED25A26443DFF00EA8704 /* UBaseTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED20326443DFF00EA8704 /* UBaseTableViewHeaderFooterView.swift */; };
+		C47ED25A26443DFF00EA8704 /* BobBaseTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED20326443DFF00EA8704 /* BobBaseTableViewHeaderFooterView.swift */; };
 		C47ED25B26443DFF00EA8704 /* UBaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED20426443DFF00EA8704 /* UBaseCollectionViewCell.swift */; };
 		C47ED25C26443DFF00EA8704 /* BobBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED20526443DFF00EA8704 /* BobBaseTableViewCell.swift */; };
 		C47ED25D26443DFF00EA8704 /* BobBaseCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED20626443DFF00EA8704 /* BobBaseCollectionReusableView.swift */; };
@@ -297,6 +300,9 @@
 		C4539D9A2655599B005B2849 /* daomeixiong2_cartoon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = daomeixiong2_cartoon.json; sourceTree = "<group>"; };
 		C4539DA226555A4B005B2849 /* green_tonghua_story.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = green_tonghua_story.json; sourceTree = "<group>"; };
 		C4539DA726555A86005B2849 /* 1001_shenghua_story.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = 1001_shenghua_story.json; sourceTree = "<group>"; };
+		C4622DF9267F95D300E4ACDA /* BobRecommendListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobRecommendListViewModel.swift; sourceTree = "<group>"; };
+		C4622DFC267F97B900E4ACDA /* BobRecommendVideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobRecommendVideoTableViewCell.swift; sourceTree = "<group>"; };
+		C4622DFF267F97F300E4ACDA /* BobRecommendVideoListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobRecommendVideoListModel.swift; sourceTree = "<group>"; };
 		C47ECB8A2644342500EA8704 /* Washington.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Washington.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47ECBA02644342600EA8704 /* WashingtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WashingtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47ECBA42644342600EA8704 /* WashingtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashingtonTests.swift; sourceTree = "<group>"; };
@@ -333,8 +339,8 @@
 		C47ED1CF26443DFF00EA8704 /* BobRankListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BobRankListViewController.swift; sourceTree = "<group>"; };
 		C47ED1D026443DFF00EA8704 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		C47ED1D326443DFF00EA8704 /* USearchTHead.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = USearchTHead.swift; sourceTree = "<group>"; };
-		C47ED1D426443DFF00EA8704 /* USearchTFoot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = USearchTFoot.swift; sourceTree = "<group>"; };
-		C47ED1D626443DFF00EA8704 /* USearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = USearchViewController.swift; sourceTree = "<group>"; };
+		C47ED1D426443DFF00EA8704 /* BobSearchTFoot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BobSearchTFoot.swift; sourceTree = "<group>"; };
+		C47ED1D626443DFF00EA8704 /* BobSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BobSearchViewController.swift; sourceTree = "<group>"; };
 		C47ED1D926443DFF00EA8704 /* UOtherWorksCCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UOtherWorksCCell.swift; sourceTree = "<group>"; };
 		C47ED1DA26443DFF00EA8704 /* UChapterCHead.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UChapterCHead.swift; sourceTree = "<group>"; };
 		C47ED1DB26443DFF00EA8704 /* UComicHead.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UComicHead.swift; sourceTree = "<group>"; };
@@ -366,7 +372,7 @@
 		C47ED1FE26443DFF00EA8704 /* UDocumentListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UDocumentListViewController.swift; sourceTree = "<group>"; };
 		C47ED1FF26443DFF00EA8704 /* UDownloadListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UDownloadListViewController.swift; sourceTree = "<group>"; };
 		C47ED20026443DFF00EA8704 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C47ED20326443DFF00EA8704 /* UBaseTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UBaseTableViewHeaderFooterView.swift; sourceTree = "<group>"; };
+		C47ED20326443DFF00EA8704 /* BobBaseTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BobBaseTableViewHeaderFooterView.swift; sourceTree = "<group>"; };
 		C47ED20426443DFF00EA8704 /* UBaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UBaseCollectionViewCell.swift; sourceTree = "<group>"; };
 		C47ED20526443DFF00EA8704 /* BobBaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BobBaseTableViewCell.swift; sourceTree = "<group>"; };
 		C47ED20626443DFF00EA8704 /* BobBaseCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BobBaseCollectionReusableView.swift; sourceTree = "<group>"; };
@@ -434,6 +440,9 @@
 		0AAE9D5A2678A6D00056C0C8 /* Recommend */ = {
 			isa = PBXGroup;
 			children = (
+				C4622DFE267F97C200E4ACDA /* Model */,
+				C4622DFB267F979D00E4ACDA /* View */,
+				C4622DF5267F95AD00E4ACDA /* ViewModel */,
 				0AAE9D5B2678A6DD0056C0C8 /* Controller */,
 			);
 			path = Recommend;
@@ -639,6 +648,30 @@
 			path = "千字文";
 			sourceTree = "<group>";
 		};
+		C4622DF5267F95AD00E4ACDA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C4622DF9267F95D300E4ACDA /* BobRecommendListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C4622DFB267F979D00E4ACDA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4622DFC267F97B900E4ACDA /* BobRecommendVideoTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4622DFE267F97C200E4ACDA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4622DFF267F97F300E4ACDA /* BobRecommendVideoListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C47ECB812644342500EA8704 = {
 			isa = PBXGroup;
 			children = (
@@ -821,7 +854,7 @@
 			isa = PBXGroup;
 			children = (
 				C47ED1D326443DFF00EA8704 /* USearchTHead.swift */,
-				C47ED1D426443DFF00EA8704 /* USearchTFoot.swift */,
+				C47ED1D426443DFF00EA8704 /* BobSearchTFoot.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -829,7 +862,7 @@
 		C47ED1D526443DFF00EA8704 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				C47ED1D626443DFF00EA8704 /* USearchViewController.swift */,
+				C47ED1D626443DFF00EA8704 /* BobSearchViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -963,7 +996,7 @@
 		C47ED20226443DFF00EA8704 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C47ED20326443DFF00EA8704 /* UBaseTableViewHeaderFooterView.swift */,
+				C47ED20326443DFF00EA8704 /* BobBaseTableViewHeaderFooterView.swift */,
 				C47ED20426443DFF00EA8704 /* UBaseCollectionViewCell.swift */,
 				C47ED20526443DFF00EA8704 /* BobBaseTableViewCell.swift */,
 				C47ED20626443DFF00EA8704 /* BobBaseCollectionReusableView.swift */,
@@ -1352,7 +1385,7 @@
 				C47ED25526443DFF00EA8704 /* UCollectListViewController.swift in Sources */,
 				C47ED23226443DFF00EA8704 /* BobUpdateListViewController.swift in Sources */,
 				C47ED26926443DFF00EA8704 /* ParallaxHeader.swift in Sources */,
-				C47ED25A26443DFF00EA8704 /* UBaseTableViewHeaderFooterView.swift in Sources */,
+				C47ED25A26443DFF00EA8704 /* BobBaseTableViewHeaderFooterView.swift in Sources */,
 				C4BD73E5266C9D9C00B0C429 /* BobVideoTableViewCell.swift in Sources */,
 				C47ED22226443DFF00EA8704 /* UIViewExtension.swift in Sources */,
 				C47ED26126443DFF00EA8704 /* UNavigationController.swift in Sources */,
@@ -1371,7 +1404,7 @@
 				C4DFD4B8264BFE53001FB46B /* BobBoutiqueListViewModel.swift in Sources */,
 				C47ED23026443DFF00EA8704 /* BobSubscibeListViewController.swift in Sources */,
 				C47ED22C26443DFF00EA8704 /* UComicCCell.swift in Sources */,
-				C47ED23926443DFF00EA8704 /* USearchTFoot.swift in Sources */,
+				C47ED23926443DFF00EA8704 /* BobSearchTFoot.swift in Sources */,
 				C4966775266226DC00D3A74E /* TraverseSubviews.m in Sources */,
 				C47ED23626443DFF00EA8704 /* BobRankListViewController.swift in Sources */,
 				C4539B7E26510D8E005B2849 /* BobVideoViewController.swift in Sources */,
@@ -1384,6 +1417,7 @@
 				C47ED23826443DFF00EA8704 /* USearchTHead.swift in Sources */,
 				C47ED23C26443DFF00EA8704 /* UChapterCHead.swift in Sources */,
 				C47ED22326443DFF00EA8704 /* UIBarButtonItemExtension.swift in Sources */,
+				C4622E00267F97F300E4ACDA /* BobRecommendVideoListModel.swift in Sources */,
 				C47ED22526443DFF00EA8704 /* UIImageExtensions.swift in Sources */,
 				C47ED22926443DFF00EA8704 /* BobComicCHead.swift in Sources */,
 				C4539B6D2650E5FC005B2849 /* BobChapterCollectionViewCell.swift in Sources */,
@@ -1393,6 +1427,7 @@
 				C47ED23126443DFF00EA8704 /* BobVIPListViewController.swift in Sources */,
 				C47ED22B26443DFF00EA8704 /* UComicCFoot.swift in Sources */,
 				C47ED22F26443DFF00EA8704 /* USpecialTCell.swift in Sources */,
+				C4622DFA267F95D300E4ACDA /* BobRecommendListViewModel.swift in Sources */,
 				C47ED26726443DFF00EA8704 /* ParallaxHeaderMode.swift in Sources */,
 				C4CEFEE7266CBBE200CAAEBC /* BobSwitchVideoViewController.swift in Sources */,
 				C47ED22D26443DFF00EA8704 /* UUpdateTCell.swift in Sources */,
@@ -1420,11 +1455,12 @@
 				C4539B722650E655005B2849 /* BobChapterContainerView.swift in Sources */,
 				C47ED22126443DFF00EA8704 /* UIColorExtension.swift in Sources */,
 				C47ED22626443DFF00EA8704 /* DispatchQueueExtension.swift in Sources */,
+				C4622DFD267F97B900E4ACDA /* BobRecommendVideoTableViewCell.swift in Sources */,
 				C47ED24F26443DFF00EA8704 /* URankCCell.swift in Sources */,
 				C47ED24126443DFF00EA8704 /* UCommentTCell.swift in Sources */,
 				C47ED24B26443DFF00EA8704 /* UChapterViewController.swift in Sources */,
 				C47ED25D26443DFF00EA8704 /* BobBaseCollectionReusableView.swift in Sources */,
-				C47ED23A26443DFF00EA8704 /* USearchViewController.swift in Sources */,
+				C47ED23A26443DFF00EA8704 /* BobSearchViewController.swift in Sources */,
 				C47ED25926443DFF00EA8704 /* AppDelegate.swift in Sources */,
 				C47ED24E26443DFF00EA8704 /* UCommentViewController.swift in Sources */,
 				C47ED24826443DFF00EA8704 /* BobComicDetailViewController.swift in Sources */,
