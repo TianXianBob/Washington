@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0AAE9D5D2678A70C0056C0C8 /* BobRecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE9D5C2678A70C0056C0C8 /* BobRecommendViewController.swift */; };
 		0AAE9D652678A7E70056C0C8 /* BobRecommendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAE9D642678A7E70056C0C8 /* BobRecommendListViewController.swift */; };
+		0AB9239C2680BA7B008349BE /* BobVideoFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB9239B2680BA7B008349BE /* BobVideoFileManager.swift */; };
 		579E19B3917FA1863EB00203 /* Pods_Washington.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74832A70F08E7785AF968B1D /* Pods_Washington.framework */; };
 		C4539B682650E487005B2849 /* BobChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4539B672650E487005B2849 /* BobChapterViewController.swift */; };
 		C4539B6D2650E5FC005B2849 /* BobChapterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4539B6C2650E5FC005B2849 /* BobChapterCollectionViewCell.swift */; };
@@ -160,7 +161,7 @@
 		C47ED25826443DFF00EA8704 /* UDownloadListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED1FF26443DFF00EA8704 /* UDownloadListViewController.swift */; };
 		C47ED25926443DFF00EA8704 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED20026443DFF00EA8704 /* AppDelegate.swift */; };
 		C47ED25A26443DFF00EA8704 /* BobBaseTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED20326443DFF00EA8704 /* BobBaseTableViewHeaderFooterView.swift */; };
-		C47ED25B26443DFF00EA8704 /* UBaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED20426443DFF00EA8704 /* UBaseCollectionViewCell.swift */; };
+		C47ED25B26443DFF00EA8704 /* BobBaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED20426443DFF00EA8704 /* BobBaseCollectionViewCell.swift */; };
 		C47ED25C26443DFF00EA8704 /* BobBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED20526443DFF00EA8704 /* BobBaseTableViewCell.swift */; };
 		C47ED25D26443DFF00EA8704 /* BobBaseCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED20626443DFF00EA8704 /* BobBaseCollectionReusableView.swift */; };
 		C47ED25E26443DFF00EA8704 /* BobPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47ED20826443DFF00EA8704 /* BobPageViewController.swift */; };
@@ -214,6 +215,7 @@
 /* Begin PBXFileReference section */
 		0AAE9D5C2678A70C0056C0C8 /* BobRecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobRecommendViewController.swift; sourceTree = "<group>"; };
 		0AAE9D642678A7E70056C0C8 /* BobRecommendListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobRecommendListViewController.swift; sourceTree = "<group>"; };
+		0AB9239B2680BA7B008349BE /* BobVideoFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobVideoFileManager.swift; sourceTree = "<group>"; };
 		74832A70F08E7785AF968B1D /* Pods_Washington.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Washington.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E05A47538197E6FD7DFBE8C /* Pods-Washington.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Washington.debug.xcconfig"; path = "Target Support Files/Pods-Washington/Pods-Washington.debug.xcconfig"; sourceTree = "<group>"; };
 		A4BA355EA6C4CF8FD5FBFE36 /* Pods-Washington.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Washington.release.xcconfig"; path = "Target Support Files/Pods-Washington/Pods-Washington.release.xcconfig"; sourceTree = "<group>"; };
@@ -373,7 +375,7 @@
 		C47ED1FF26443DFF00EA8704 /* UDownloadListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UDownloadListViewController.swift; sourceTree = "<group>"; };
 		C47ED20026443DFF00EA8704 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C47ED20326443DFF00EA8704 /* BobBaseTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BobBaseTableViewHeaderFooterView.swift; sourceTree = "<group>"; };
-		C47ED20426443DFF00EA8704 /* UBaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UBaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		C47ED20426443DFF00EA8704 /* BobBaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BobBaseCollectionViewCell.swift; sourceTree = "<group>"; };
 		C47ED20526443DFF00EA8704 /* BobBaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BobBaseTableViewCell.swift; sourceTree = "<group>"; };
 		C47ED20626443DFF00EA8704 /* BobBaseCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BobBaseCollectionReusableView.swift; sourceTree = "<group>"; };
 		C47ED20826443DFF00EA8704 /* BobPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BobPageViewController.swift; sourceTree = "<group>"; };
@@ -748,6 +750,7 @@
 				C4909863264FBB8000C9AD9F /* 古诗词.json */,
 				C4909876264FBC0500C9AD9F /* 儿歌.json */,
 				C490987B264FBC3200C9AD9F /* 故事集.json */,
+				0AB9239B2680BA7B008349BE /* BobVideoFileManager.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -997,7 +1000,7 @@
 			isa = PBXGroup;
 			children = (
 				C47ED20326443DFF00EA8704 /* BobBaseTableViewHeaderFooterView.swift */,
-				C47ED20426443DFF00EA8704 /* UBaseCollectionViewCell.swift */,
+				C47ED20426443DFF00EA8704 /* BobBaseCollectionViewCell.swift */,
 				C47ED20526443DFF00EA8704 /* BobBaseTableViewCell.swift */,
 				C47ED20626443DFF00EA8704 /* BobBaseCollectionReusableView.swift */,
 			);
@@ -1388,6 +1391,7 @@
 				C47ED25A26443DFF00EA8704 /* BobBaseTableViewHeaderFooterView.swift in Sources */,
 				C4BD73E5266C9D9C00B0C429 /* BobVideoTableViewCell.swift in Sources */,
 				C47ED22226443DFF00EA8704 /* UIViewExtension.swift in Sources */,
+				0AB9239C2680BA7B008349BE /* BobVideoFileManager.swift in Sources */,
 				C47ED26126443DFF00EA8704 /* UNavigationController.swift in Sources */,
 				C47ED24D26443DFF00EA8704 /* UReadViewController.swift in Sources */,
 				C47ED25026443DFF00EA8704 /* UTopCCell.swift in Sources */,
@@ -1411,7 +1415,7 @@
 				C47ED25326443DFF00EA8704 /* USettingViewController.swift in Sources */,
 				C47ED26526443DFF00EA8704 /* URefresh.swift in Sources */,
 				C47ED22726443DFF00EA8704 /* StringExtension.swift in Sources */,
-				C47ED25B26443DFF00EA8704 /* UBaseCollectionViewCell.swift in Sources */,
+				C47ED25B26443DFF00EA8704 /* BobBaseCollectionViewCell.swift in Sources */,
 				C496677B2662280D00D3A74E /* ViewNode.m in Sources */,
 				C47ED24626443DFF00EA8704 /* UReadBottomBar.swift in Sources */,
 				C47ED23826443DFF00EA8704 /* USearchTHead.swift in Sources */,
@@ -1646,6 +1650,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 74L6VPF8C3;
 				INFOPLIST_FILE = Washington/Info.plist;
@@ -1656,6 +1661,7 @@
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bob.Washington;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Washington/Objc_tool/Washington-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1670,6 +1676,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 74L6VPF8C3;
 				INFOPLIST_FILE = Washington/Info.plist;
@@ -1680,6 +1687,7 @@
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bob.Washington;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Washington/Objc_tool/Washington-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

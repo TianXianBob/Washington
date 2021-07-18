@@ -65,6 +65,7 @@ class BobUpdateListViewController: BobBaseViewController {
                                     guard let defaultConTagType = defaultParameters.defaultConTagType else { return }
                                     self?.spinnerName = defaultConTagType
         }
+        
     }
     
     override func configUI() {

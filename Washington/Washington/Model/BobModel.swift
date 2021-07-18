@@ -20,6 +20,17 @@ struct ContentListModel: HandyJSON, Equatable {
     var sourceId: Int = 0
 }
 
+struct BobVideoModel: HandyJSON {
+    var addTime: String?
+    var iconName: String?
+    var iconUrl: String?
+    var playUrl: String?
+    var rid: Int = 0
+    var sourceId: Int = 0
+}
+
+
+
 
 
 struct HomeListModel: HandyJSON {

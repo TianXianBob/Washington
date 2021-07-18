@@ -16,6 +16,7 @@ class BobRecommendListViewController: BobBaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setup()
+
     }
     
 }

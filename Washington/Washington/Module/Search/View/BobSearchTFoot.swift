@@ -8,7 +8,7 @@
 
 import UIKit
 
-class USearchCCell: UBaseCollectionViewCell {
+class BobSearchCCell: BobBaseCollectionViewCell {
     lazy var titleLabel: UILabel = {
         let tl = UILabel()
         tl.textAlignment = .center
@@ -25,17 +25,17 @@ class USearchCCell: UBaseCollectionViewCell {
     }
 }
 
-typealias USearchTFootDidSelectIndexClosure = (_ index: Int, _ model: SearchItemModel) -> Void
+typealias BobSearchTFootDidSelectIndexClosure = (_ index: Int, _ model: SearchItemModel) -> Void
 
-protocol USearchTFootDelegate: AnyObject {
+protocol BobSearchTFootDelegate: AnyObject {
     func searchTFoot(_ searchTFoot: BobSearchTFoot, didSelectItemAt index: Int, _ model: SearchItemModel)
 }
 
 class BobSearchTFoot: BobBaseTableViewHeaderFooterView {
 
-    weak var delegate: USearchTFootDelegate?
+    weak var delegate: BobSearchTFootDelegate?
     
-    private var didSelectIndexClosure: USearchTFootDidSelectIndexClosure?
+    private var didSelectIndexClosure: BobSearchTFootDidSelectIndexClosure?
     
     private lazy var collectionView: UICollectionView = {
         let lt = UCollectionViewAlignedLayout()
@@ -48,7 +48,7 @@ class BobSearchTFoot: BobBaseTableViewHeaderFooterView {
         cw.backgroundColor = UIColor.white
         cw.dataSource = self
         cw.delegate = self
-        cw.register(cellType: USearchCCell.self)
+        cw.register(cellType: BobSearchCCell.self)
         return cw
     }()
     
@@ -73,7 +73,7 @@ extension BobSearchTFoot: UICollectionViewDataSource, UICollectionViewDelegateFl
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(for: indexPath, cellType: USearchCCell.self)
+        let cell = collectionView.dequeueReusableCell(for: indexPath, cellType: BobSearchCCell.self)
         cell.layer.cornerRadius = cell.bounds.height * 0.5
         cell.titleLabel.text = data[indexPath.row].name
         return cell
@@ -86,7 +86,7 @@ extension BobSearchTFoot: UICollectionViewDataSource, UICollectionViewDelegateFl
         closure(indexPath.row, data[indexPath.row])
     }
     
-    func didSelectIndexClosure(_ closure: @escaping USearchTFootDidSelectIndexClosure) {
+    func didSelectIndexClosure(_ closure: @escaping BobSearchTFootDidSelectIndexClosure) {
         didSelectIndexClosure = closure
     }
 }

@@ -30,6 +30,7 @@ class BobSearchViewController: BobBaseViewController {
         sr.tintColor = UIColor.darkGray
         sr.font = UIFont.systemFont(ofSize: 15)
         sr.placeholder = "输入视频名称/关键词"
+
         sr.layer.cornerRadius = 15
         sr.leftView = UIView(frame: CGRect(x: 0, y: 0, width: 15, height: 15))
         sr.leftViewMode = .always
@@ -107,7 +108,7 @@ class BobSearchViewController: BobBaseViewController {
             
             self.hotModels = newArray
 //            self.comicLists = m
-//            self.collectionView.reloadData()
+            self.historyTableView.reloadData()
         }
         
     }
@@ -349,7 +350,7 @@ extension BobSearchViewController: UITableViewDelegate, UITableViewDataSource {
                 guard let self = self else { return }
                 
                 let comicModel = self.hotModels[index]
-                let vc = BobComicDetailViewController(comicid: model.comic_id, comic: comicModel)
+                let vc = BobComicDetailViewController(comicid: comicModel.comic_id, comic: comicModel)
                 self.navigationController?.pushViewController(vc, animated: true)
             }
             return foot
